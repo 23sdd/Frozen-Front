@@ -1,4 +1,5 @@
 ﻿capital = 779
+set_oob = "FAS_1936"
 set_stability = 0.3
 set_war_support = 0.1
 trains = 6

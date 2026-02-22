@@ -7,7 +7,7 @@ if = {
 			has_dlc = "La Resistance"
 		}
 	}
-	set_oob = "ENG_1936"
+    set_oob = "ENG_1936"
 }
 if = {
 	limit = {
