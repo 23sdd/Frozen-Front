@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = USA
-		add_core_of = USA
+		owner = ANS
+		add_core_of = ANS
 
 		buildings = {
 			infrastructure = 2

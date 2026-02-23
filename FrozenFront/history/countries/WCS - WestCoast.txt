@@ -1,0 +1,45 @@
+﻿capital = 378
+
+#ob = ""
+
+
+set_stability = 0.6
+set_war_support = 0.35
+trains = 10
+starting_train_buffer = 2
+set_research_slots = 3
+add_command_power = 20
+set_convoys = 78
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	tech_trucks = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	fuel_silos = 1
+	fuel_refining = 1
+	basic_train = 1
+	basic_fortification_tech = 1
+}
+
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+set_popularities = {
+	neutrality = 30
+	democratic = 30
+	fascism = 20
+	communism = 20
+}
+
+
+
