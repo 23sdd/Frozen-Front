@@ -1,18 +1,5 @@
 capital = 439
 if = {
-	limit = {
-		has_dlc = "Graveyard of Empires"
-	}
-	set_oob = "RAJ_1936_GOE"
-}
-if = {
-	limit = {
-		NOT = { has_dlc = "Graveyard of Empires" }
-	}
-	set_oob = "RAJ_1936"	
-}
-
-if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "RAJ_1936_air_bba"
 		set_technology = {
@@ -238,27 +225,6 @@ if = {
 }
 
 set_convoys = 20
-
-set_cosmetic_tag = RAJ_UK # British Raj
-
-640 = { #Mandalay
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-432 = { #Assam
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-427 = { #Hyderabad
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-436 = { #Jabalpur
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-437 = { #Indore
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
-433 = { #Rajahsthan
-	add_dynamic_modifier = { modifier = dense_rural_infrastructure }
-}
 
 1939.1.1 = {
 	
