@@ -11798,7 +11798,7 @@
  united_mahgreb_neutrality_RU_Inst: "Магрибским эмиратом"
  KUR_FRA_autonomy_dominion_RU_Inst: "$OVERLORDADJ$им Государством Курдистан"
  COG_subject_RU_Inst: "$OVERLORDADJ$им Конго"
- COG_belgian_congo_RU_Inst: "[BEL.GetAdective]им Конго"
+ COG_belgian_congo_RU_Inst: "Конго"
  CHL_fascism_RU_Inst: "Авангардистским Чили"
  TIG_fascism_RU_Inst: "Аксумским царством"
  ALB_neutrality_RU_Inst: "Албанским королевством"
