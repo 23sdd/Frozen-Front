@@ -1217,6 +1217,7 @@ FAS = {
 	color_ui = rgb { 74 147 255 }
 }
 
+#modeCountry
 BRF = {
 	color = rgb { 193 37 37 }
 	color_ui = rgb { 193 37 37 }
@@ -1225,4 +1226,9 @@ BRF = {
 FLS = {
 	color = rgb { 23 44 12 }
 	color_ui = rgb { 0 0 0  }
+}
+
+CPI = {
+	color = rgb { 71  71  122 }
+	color_ui = rgb { 64 64 108 }
 }
