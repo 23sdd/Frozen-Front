@@ -247,8 +247,8 @@ URG = {
 	color_ui = rgb { 222 247 198 }
 }
 VEN = {
-	color = rgb { 171 190 152 }
-	color_ui = rgb { 222 247 198 }
+	color = rgb { 164  92  10 }
+	color_ui = rgb { 125 70 8 }
 }
 YUN = {
 	color = rgb { 114 148 80 }
@@ -1220,4 +1220,9 @@ FAS = {
 BRF = {
 	color = rgb { 193 37 37 }
 	color_ui = rgb { 193 37 37 }
+}
+
+FLS = {
+	color = rgb { 23 44 12 }
+	color_ui = rgb { 0 0 0  }
 }
