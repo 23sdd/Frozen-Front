@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = USA
-		add_core_of = USA
+		owner = WCS
+		add_core_of = WCS
 
 		buildings = {
 			infrastructure = 3 #was: 6
