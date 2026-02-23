@@ -24,11 +24,7 @@ IF = {
 		has_dlc = "Gotterdammerung"
 	}
 
-	# Set Flags
-	set_cosmetic_tag = COG_belgian_congo # The Belgian Congo
-	set_global_flag = COG_no_jft_done  # No focuses have yet to be completed in the JFT
-
-	### Set National Spirits ###
+		### Set National Spirits ###
 	add_ideas = {
 		COG_the_invisible_roof
 		COG_vast_decentralized_state_idea

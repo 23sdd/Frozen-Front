@@ -6,11 +6,13 @@ state={
 	}
 
 	history={
-		owner = RAJ
+		owner = PAK
 		add_core_of = RJP
 		buildings = {
 			infrastructure = 1
 		}
+        start_resistance = yes
+	set_resistance =  30
 
 	}
 	manpower=984612
