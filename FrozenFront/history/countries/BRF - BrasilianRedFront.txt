@@ -1,6 +1,6 @@
-﻿capital = 939 
+﻿capital = 500 #Sukhumi
 
-#oob = "BRA_1936"
+#oob = "BRF_1936"
 
 set_research_slots = 3
 set_stability = 0.8
@@ -24,17 +24,17 @@ set_technology = {
 
 		
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = communism
 	last_election = "1936.1.1"
 	election_frequency = 48
 	elections_allowed = no
 }
 
 set_popularities = {
-	democratic = 10
-	fascism = 20
-	communism = 0
-	neutrality = 70
+	democratic = 20
+	fascism = 5
+	communism = 75
+	neutrality = 0
 }
 
 
