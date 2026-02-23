@@ -7,8 +7,8 @@ state = {
 	
 	history = {
 
-		owner = ENG
-		add_claim_by = ARG
+		owner = CHL
+		add_claim_by = CHL
 
 		buildings = {
 			infrastructure = 1
