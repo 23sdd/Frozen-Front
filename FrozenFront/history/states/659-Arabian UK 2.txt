@@ -10,7 +10,7 @@ state={
 	local_supplies=0.000
 
 	history = {
-		owner = ENG
+		owner = FSA
 		add_core_of = YEM
 		add_core_of = FSA
 		buildings = {

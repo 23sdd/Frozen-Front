@@ -11,21 +11,6 @@
 	}
 }
 
-units = {
-	##### Al-Quwat ul-Musalhatu as-Sultan 'Uman #####
-	division = {
-		#name = "Alquwwat Almusallahat Alssultan"
-		division_name = {    # New syntax for compatibility with name lists
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 10760
-		division_template = "Alfurqat Almasha"
-		start_experience_factor = 0.2
-		start_equipment_factor = 0.7
-
-	}
-}
 
 ### No air force until the 1950s ###
 

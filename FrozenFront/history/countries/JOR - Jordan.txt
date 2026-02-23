@@ -24,7 +24,7 @@ if = {
 set_convoys = 5
 
 # TODO_GoE - Add DLC checks
-set_cosmetic_tag = JOR_emirate
+
 
 1939.1.1 = {
 

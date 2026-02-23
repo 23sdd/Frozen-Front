@@ -23,7 +23,7 @@ if = {
 }
 
 set_convoys = 5
-set_cosmetic_tag = LEB_mandate
+
 
 1939.1.1 = {
 

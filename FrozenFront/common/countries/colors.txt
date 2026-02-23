@@ -345,18 +345,18 @@ PAL = {
 }
 
 LEB = {
-	color = rgb { 130  150  60 }
-	color_ui = rgb { 130  150  60 }
+	color = rgb { 201  172  172 }
+	color_ui = rgb { 201  172  172 }
 }
 
 JOR = {
-	color = rgb { 111  55  78 }
-	color_ui = rgb { 111  55  78 }
+	color = rgb {153  76  0 }
+	color_ui = rgb { 153  76  0 }
 }
 
 SYR = {
-	color = rgb { 100  100  150 }
-	color_ui = rgb { 100  100  150 }
+	color = rgb { 25  52  188 }
+	color_ui = rgb { 25  52  188 }
 }
 
 SER = {
@@ -883,6 +883,10 @@ GRN = {
 RAP = {
 	color = rgb { 204 0 0 }
 	color_ui = rgb { 102 0 0 }
+}
+KUW = {
+	color = rgb { 185 65 65 }
+	color_ui = rgb { 185 65 65 }
 }
 GAR = {
 	color = rgb { 128 128 255 }
