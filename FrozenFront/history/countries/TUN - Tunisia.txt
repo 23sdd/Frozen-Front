@@ -1,5 +1,7 @@
 ﻿capital = 458
 
+set_oob = "TUN_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

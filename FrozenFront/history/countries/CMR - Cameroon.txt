@@ -1,5 +1,7 @@
 ﻿capital = 773
 
+set_oob = "CMR_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1

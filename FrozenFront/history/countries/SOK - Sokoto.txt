@@ -1,5 +1,7 @@
 ﻿capital = 902 # Sokoto
 
+set_oob = "SOK_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
