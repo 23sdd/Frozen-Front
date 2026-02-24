@@ -31,3 +31,12 @@ set_popularities = {
     neutrality = 83
     fascism = 17
 }
+
+create_country_leader = {
+	name = "TEX_LEADER"
+	desc = "TEX_LEADER_DESC"
+	picture = "gfx/leaders/TEX/TEX_LEADER.dds"
+	expire = "1960.1.1"
+	ideology = agrarian
+
+}
