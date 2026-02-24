@@ -371,4 +371,6 @@ FAS = "countries/France African State.txt"
 #modeCountry
 FLS	= "countries/FreeLatinStates.txt"
 CPI = "countries/CarribianPirat.txt"
+TEX = "countries/Texas.txt"
+AAU = "countries/Afro American Unity.txt"
 #NOTE: Useful to add a basic default loc entry for each tag in 00_countries.txt so that hovering over a tag will show the tag's name in loc (ie. PAP: "Papal States")

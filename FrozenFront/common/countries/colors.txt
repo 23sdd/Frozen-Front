@@ -1237,3 +1237,13 @@ CPI = {
 	color = rgb { 71  71  122 }
 	color_ui = rgb { 64 64 108 }
 }
+
+TEX = {
+	color = rgb { 154 154 154 }
+	color_ui = rgb { 140 140 140 }
+}
+
+AAU = {
+	color = rgb { 124 46 7 }
+	color_ui = rgb { 80 30 5 }
+}
