@@ -1,5 +1,7 @@
 ﻿capital = 660
 
+set_oob = "CAR_1936"
+
 # Starting tech
 set_technology = {
 	infantry_weapons = 1
