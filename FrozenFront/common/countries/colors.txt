@@ -6,11 +6,18 @@ ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+WWC = {
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
+ }
 WCS = {
 	color = rgb { 0 45 150 }
 	color_ui = rgb { 0 45 150 }
 }
-
+ANS = {
+	color = rgb { 153 0 0 }
+	color_ui = rgb { 153 0 0 }
+}
 SOV = {
 	color = rgb { 125 13 24 }
 	color_ui = rgb { 163 17 31 }

@@ -20,5 +20,5 @@ state={
 		2001 7950 7983 8071 10836 12851
 	}
 
-	local_supplies=1.0 
+	local_supplies=2.0 
 }
