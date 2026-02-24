@@ -1671,7 +1671,7 @@
  GER_VICTORY_POINTS_12154: "Фридрих-Вильгельмсхафен"
  VICTORY_POINTS_12240: "Вевак"
  VICTORY_POINTS_12925: "Матади"
- VICTORY_POINTS_686: "Шопрон"
+ VICTORY_POINTS_686: "Шпёр"
  AUS_VICTORY_POINTS_686: "Эденбург"
  GER_VICTORY_POINTS_686: "Эденбург"
  VICTORY_POINTS_8034: "Энугу"
@@ -2049,3 +2049,9 @@
  VICTORY_POINTS_7848: "Мохэ"
  VICTORY_POINTS_10212: "Джесселтон" #Kota Kinabalu after 1967
  VICTORY_POINTS_4091: "Наньтун"
+ VICTORY_POINTS_11663: "Шаришап"
+ VICTORY_POINTS_6997: "Нахичевань"
+ ARM_VICTORY_POINTS_1467: "Степанакерт"
+ AZR_VICTORY_POINTS_1467: "Ханкенди"
+ VICTORY_POINTS_1467: "Степанакерт"
+ VICTORY_POINTS_4660: "Капан"

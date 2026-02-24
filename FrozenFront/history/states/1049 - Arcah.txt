@@ -1,0 +1,25 @@
+state={
+	id=1049
+	name="STATE_1049"
+
+	history={
+		owner = AZR
+        add_core_of = ARM
+        add_core_of = AZR
+		victory_points = {
+			1467 3
+		}
+		buildings = {
+			infrastructure = 2
+        }
+    }
+
+    provinces={
+	 1467 9715
+	}
+	manpower=83647
+	buildings_max_level_factor=1.000
+	state_category=rurall
+
+	local_supplies=0.0       
+}    

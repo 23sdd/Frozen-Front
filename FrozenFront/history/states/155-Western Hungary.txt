@@ -23,6 +23,10 @@ state = {
 			686 1 # Sopron
 		} 
 
+		victory_points = {
+			11663 2 # Sopron
+		} 
+
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 2
