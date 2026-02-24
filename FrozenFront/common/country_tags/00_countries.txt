@@ -276,6 +276,7 @@ UBD = "countries/United Baltic Duchy.txt"
 KOS	= "countries/Kosovo.txt"
 WCS = "countries/WestCoast.txt"
 ANS = "countries/AnarchyS.txt"
+WWC = "countries/WestWC.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"

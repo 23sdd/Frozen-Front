@@ -14,12 +14,12 @@ state={
 
 
 	history={
-		owner = USA
+		owner = WWC
 		buildings = {
 			infrastructure = 2
 			industrial_complex = 1
 		}
-		add_core_of = USA
+		add_core_of = WWC
 		victory_points = {
 			4975 1
 		}
