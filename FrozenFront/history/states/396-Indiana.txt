@@ -11,12 +11,12 @@ state={
 	state_category = large_city
 
 	history={
-		owner = USA
+		owner = NAS
 		buildings = {
 			infrastructure = 3 #was: 6
 			industrial_complex = 5
 		}
-		add_core_of = USA
+		add_core_of = NAS
 		victory_points = {
 			1595 5 
 		}
