@@ -1260,21 +1260,19 @@ KKK = {
 	color_ui = rgb { 255 255 255}
 }
 
-KSA = {
-	color = rgb { 31 145 162 }
-	color_ui = rgb { 30 130 145 }
-}
-
 OKH = {
 	color = rgb { 220 0 0 }
 	color_ui = rgb { 200 0 0 }
 }
 
 KSA = {
-	color = rgb { 154 31 31 }
-	color_ui = rgb { 154 31 31 }
+	color = rgb { 96 96 96 }
+	color_ui = rgb { 96 96 96 }
 }
-
+SOI = {
+	color = rgb { 255 255 0 }
+	color_ui = rgb { 255 255 0 }
+}
 NAS = {
 	color = rgb { 70 0 0 }
 	color_ui = rgb { 50 0 0 }

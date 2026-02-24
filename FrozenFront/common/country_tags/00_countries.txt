@@ -277,6 +277,7 @@ KOS	= "countries/Kosovo.txt"
 WCS = "countries/WestCoast.txt"
 ANS = "countries/AnarchyS.txt"
 WWC = "countries/WestWC.txt"
+SOI = "countries/Sons of liberty.txt"
 
 # REICHSKOMMISSARIATS (no cores) (European)
 RKB = "countries/Reichskommisariat Belgien.txt"
