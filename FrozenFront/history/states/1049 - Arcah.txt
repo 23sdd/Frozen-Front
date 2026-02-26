@@ -1,16 +1,17 @@
 state={
 	id=1049
 	name="STATE_1049"
-
+	state_category=rural
 	history={
-		owner = AZR
+        owner = AZR
         add_core_of = ARM
         add_core_of = AZR
-		victory_points = {
-			1467 3
-		}
-		buildings = {
-			infrastructure = 2
+        victory_points = {
+            1467 3
+        }
+        buildings = {
+            infrastructure = 2
+            
         }
     }
 
@@ -19,7 +20,7 @@ state={
 	}
 	manpower=83647
 	buildings_max_level_factor=1.000
-	state_category=rurall
+	
 
 	local_supplies=0.0       
 }    
