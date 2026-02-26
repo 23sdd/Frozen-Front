@@ -1,24 +1,24 @@
 state={
-	id=1050
-	name="STATE_1050"
-
-	history={
-		owner = ARM
+    id=1050
+    name="STATE_1050"
+    state_category=rural
+    history={
+        owner = ARM
         add_core_of = ARM
-		victory_points = {
-			4660 3
-		}
-		buildings = {
-			infrastructure = 2
+        victory_points = {
+            4660 3
+        }
+        buildings = {
+            infrastructure = 2
+            # Фикс для Mac: привязываем здания к главной провинции штата
+            
         }
     }
 
     provinces={
-	 4660 6642
-	}
-	manpower=356762
-	buildings_max_level_factor=1.000
-	state_category=rurall
-
-	local_supplies=0.0       
-}    
+        4660 6642
+    }
+    manpower=356762
+    buildings_max_level_factor=1.000
+    local_supplies=0.0        
+}
