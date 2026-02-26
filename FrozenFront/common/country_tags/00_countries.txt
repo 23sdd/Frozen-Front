@@ -344,6 +344,8 @@ ASY = "countries/Assyria.txt"
 BHR = "countries/Bahrain.txt"
 IMO = "countries/Omani Imamate.txt"
 BLC = "countries/Balochistan.txt"
+SWR = "countries/Denikin.txt"
+MLR = "countries/Malorossia.txt"
 
 # SEA 
 EZO = "countries/Ezo Republic.txt"

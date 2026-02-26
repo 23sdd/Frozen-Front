@@ -7,9 +7,11 @@ state = {
 	
 	history = {
 
-		owner = LIT
+		owner = BLR
 		add_core_of = LIT
+		add_claim_by = LIT
 		add_claim_by = PRE
+		add_claim_by = BLR
 
 		victory_points = {
 			3288 3 # Klaipeda/Memel

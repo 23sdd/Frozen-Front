@@ -7,8 +7,8 @@ state = {
 
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
+		owner = SWR
+		add_core_of = SWR
 
 		victory_points = {
 			3529 30 # Stalingrad
