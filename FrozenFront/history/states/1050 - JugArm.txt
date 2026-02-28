@@ -10,8 +10,7 @@ state={
         }
         buildings = {
             infrastructure = 2
-            # Фикс для Mac: привязываем здания к главной провинции штата
-            
+            industrial_complex = 1
         }
     }
 

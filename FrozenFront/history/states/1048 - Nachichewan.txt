@@ -13,7 +13,8 @@ state={
         # Блок зданий должен быть ВНУТРИ history
         buildings = {
             infrastructure = 2
-           
+            factory = 1
+            air_base = 1
         }
     } # Конец блока history
 

@@ -11,8 +11,10 @@ state={
 		add_core_of = SYR
 		add_core_of = KUR
 		buildings = {
-			infrastructure = 1
-			
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1	
+			air_base = 2
 		}
 
 		victory_points = {
