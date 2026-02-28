@@ -13,7 +13,7 @@ state={
 	state_category = city
 
 	history= {
-		owner = TUR
+		owner = GRE
 		victory_points = {
 			9833 25
 		}
@@ -33,15 +33,8 @@ state={
                 }
 			}
 		}
-		add_core_of = TUR
-		if = {
-			limit = { has_dlc = "Battle for the Bosporus"}
-			set_demilitarized_zone = yes
-		}
+		add_core_of = GRE
 		
-		1936.11.9 = {
-			set_demilitarized_zone = no
-		}
 	}
 
 	local_supplies=0.0 
