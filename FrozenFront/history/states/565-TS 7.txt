@@ -13,8 +13,8 @@ state = {
 
 	history = {
 
-		owner = SOV
-		add_core_of = SOV
+		owner = SDK
+		add_core_of = SDK
 		add_core_of = EVE
 
 		buildings = {

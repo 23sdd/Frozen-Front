@@ -77,7 +77,7 @@ division_template = {
 }
 
 
-units = {
+####units = {
 	#Aldershot Command
 	division= {	# "1st Infantry Division"
 		division_name = {
