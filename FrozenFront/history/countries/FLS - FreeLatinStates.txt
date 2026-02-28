@@ -1,4 +1,4 @@
-﻿capital = 310
+﻿capital = 687
 #oob = "FLS_1936"
 
 set_research_slots = 3
