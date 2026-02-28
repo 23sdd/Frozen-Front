@@ -346,6 +346,7 @@ IMO = "countries/Omani Imamate.txt"
 BLC = "countries/Balochistan.txt"
 SWR = "countries/Denikin.txt"
 MLR = "countries/Malorossia.txt"
+SDK = "countries/Kolchak.txt"
 
 # SEA 
 EZO = "countries/Ezo Republic.txt"

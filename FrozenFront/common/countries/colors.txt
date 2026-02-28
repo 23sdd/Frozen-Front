@@ -18,6 +18,10 @@ SWR = {
 	color = rgb { 238 249 144 }
 	color_ui = rgb { 238 249 144 }
 }
+SDK = {
+	color = rgb { 224 224 224 }
+	color_ui = rgb { 224 224 224 }
+}
 MLR = {
 	color = rgb { 238 249 144 }
 	color_ui = rgb { 238 249 144 }

@@ -1,8 +1,8 @@
-﻿capital = 371
+capital = 570
 
 #oob = "AAU_1936"
-set_stability = 0.3
-set_war_support = 0.1
+set_stability = 0.37
+set_war_support = 0.26
 set_research_slots = 3
 
 set_convoys = 50 
@@ -13,13 +13,13 @@ set_technology = {
 }
 
 set_politics = {
-    ruling_party = fascism
+    ruling_party = neutrality
     last_election = "1396.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-    fascism = 99
-    neutrality = 1
+    fascism = 37
+    neutrality = 63
 }
