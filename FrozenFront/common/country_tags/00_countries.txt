@@ -347,6 +347,9 @@ BLC = "countries/Balochistan.txt"
 SWR = "countries/Denikin.txt"
 MLR = "countries/Malorossia.txt"
 SDK = "countries/Kolchak.txt"
+TDR = "countries/Tdemocratic.txt"
+TCR = "countries/Tcommunist.txt"
+TFC = "countries/Tfasi.txt"
 
 # SEA 
 EZO = "countries/Ezo Republic.txt"
