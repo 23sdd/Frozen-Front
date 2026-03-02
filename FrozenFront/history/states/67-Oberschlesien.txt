@@ -12,8 +12,7 @@ state = {
 
 	history = {
 
-		owner = GER
-		add_core_of = GER
+		owner = POL
 		add_core_of = SIL
 		add_core_of = PRE
 

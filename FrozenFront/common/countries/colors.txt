@@ -1005,8 +1005,8 @@ HES = {
 	color_ui = rgb { 179 0 0 }
 }
 RHI = {
-	color = rgb { 0 153 51 }
-	color_ui = rgb { 0 77 26 }
+	color = rgb { 125 17 17 }
+	color_ui = rgb { 125 17 17 }
 }
 UBD = {
 	color = rgb { 92 92 138 }
