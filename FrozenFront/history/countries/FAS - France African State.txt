@@ -57,6 +57,7 @@ IF = {
 	}
 	set_technology = {
 		gwtank = 1
+		basic_light_tank = 1
 	}
 }
 IF = {
