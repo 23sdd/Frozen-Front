@@ -1,60 +1,8 @@
 ﻿capital = 6 # Brussels
 
-IF = {
-	limit = { 
-		has_dlc = "Gotterdammerung"
-		has_dlc = "La Resistance"
-		has_dlc = "No Compromise, No Surrender"
-	}
-	set_technology = {
-		armored_car1 = 1
-		rangers_tech = 1
-		BEL_chasseurs_ardennais_ncns = 1 
-	}
-	set_oob = "BEL_WW_1936_lar_ncns"	
-	ELSE_IF = {
-		limit = { 
-			has_dlc = "Gotterdammerung"
-			has_dlc = "No Compromise, No Surrender"
-		}
-		set_technology = {
-			rangers_tech = 1
-			BEL_chasseurs_ardennais_ncns = 1 
-		}
-		set_oob = "BEL_WW_1936_ncns"
-	}
-	ELSE_IF = {
-		limit = { 
-			has_dlc = "Gotterdammerung"
-			has_dlc = "La Resistance"
-		}
-		set_technology = {
-			armored_car1 = 1
-			BEL_chasseurs_ardennais = 1 
-		}
-		set_oob = "BEL_WW_1936_lar"
-	}
-	ELSE_IF = {
-		limit = {
-			has_dlc = "Gotterdammerung"
-			NOT = {
-				has_dlc = "La Resistance"
-			}
-		}
-		set_oob = "BEL_WW_1936"
-		set_technology = {
-			BEL_chasseurs_ardennais = 1 
-		}
-	}
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "BEL_1936"
-	}
-}
+set_cosmetic_tag = BEL_france_puppet
+
+set_oob = "BEL_1936"
 
 if = {
 	limit = {
@@ -75,13 +23,7 @@ if = {
 	}
 }
 
-if = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	give_guarantee = FRA
-	give_guarantee = ENG
-}
+
 
 set_research_slots = 3
 set_stability = 0.7
@@ -601,29 +543,29 @@ set_grand_doctrine = new_strategic_destruction
 
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = communism
 	last_election = "1936.1.1" #Was 1932.11.27 but changed to allow for Government Resigns focus to simulate this election.
 	election_frequency = 48
 	elections_allowed = yes
 }
 
 set_popularities = {
-	democratic = 83
+	democratic = 6
 	fascism = 11
-	communism = 6
+	communism = 83
 }
 
 1939.1.1 = {
 	set_politics = {
-		ruling_party = democratic
+		ruling_party = communism
 		last_election = "1939.4.2"
 		election_frequency = 48
-		elections_allowed = yes
+		elections_allowed = no
 	}
 	set_popularities = {
-		democratic = 87
+		democratic = 5
 		fascism = 8
-		communism = 5
+		communism = 87
 	}
 }
 
