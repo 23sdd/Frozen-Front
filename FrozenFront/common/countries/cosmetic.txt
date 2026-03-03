@@ -449,7 +449,19 @@ GRE_com_independent_neutrality = {
 	color_ui = rgb { 195 8 8 }
 }
 
-GRE_stalinist = {
+BEL_france_puppet = {
+    color = rgb { 222 27 27 }
+	color_ui = rgb { 222 27 27 }
+}
+LUX_france_puppet = {
+    color = rgb { 222 27 27 }
+	color_ui = rgb { 222 27 27 }
+}
+SPM_france_puppet = {
+    color = rgb { 222 27 27 }
+	color_ui = rgb { 222 27 27 }
+}
+GER_stalinist = {
 	color = rgb { 165 0 0 }
 	color_ui = rgb { 165 0 0 }
 }

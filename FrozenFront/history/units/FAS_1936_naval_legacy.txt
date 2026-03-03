@@ -1,0 +1,22 @@
+units= {
+
+	fleet = {
+		name = "Amiral Nord"
+		naval_base = 575 # Dunkerque
+		task_force = {				
+			name = "1ère Région Navale"			
+			location = 10803 # Dunkerque			
+			# 8e Division des Contre-Torpilleurs
+			ship = { name = "Le Terrible" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAS version_name = "Aigle & Vauquelin Class" } } }
+			ship = { name = "L'Audacieux" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = FAS version_name = "Aigle & Vauquelin Class" } } }
+		}
+		task_force = {				
+			name = "Sous-Marins Force du Nord"			
+			location = 10803 # Dunkerque	
+			# 16e Division des Sous-Marins
+			ship = { name = "Orphée" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
+			ship = { name = "Amazone" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
+			ship = { name = "La Sybille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
+			ship = { name = "Antiope" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
+		}				
+	}
