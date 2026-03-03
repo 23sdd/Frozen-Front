@@ -18,5 +18,8 @@ units= {
 			ship = { name = "Amazone" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
 			ship = { name = "La Sybille" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
 			ship = { name = "Antiope" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
+            ship = { name = "Antiope" definition = submarine equipment = { submarine_1 = { amount = 1 owner = FAS version_name = "630 Series" } } }
 		}				
+						
 	}
+}
