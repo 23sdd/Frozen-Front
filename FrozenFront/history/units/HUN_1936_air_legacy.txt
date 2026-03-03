@@ -7,7 +7,7 @@ air_wings = {
 		# 2. Légi Ezred -- Fiat CR.32 fighters
 		fighter_equipment_0 = {
 			owner = "HUN" 
-			creator = "ITA"
+			creator = "HUN"
 				amount = 72
 		}
 
