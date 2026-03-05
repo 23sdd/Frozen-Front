@@ -11,7 +11,10 @@ state = {
 		add_core_of = UKR
 
 		victory_points = {
-			11405 1 # Zaporozhe
+			11405 3 # Zaporozhe
+		}
+		victory_points = {
+			6596 2 # Zaporozhe
 		}
 
 		buildings = {

@@ -147,8 +147,8 @@ IRE = {
 	color_ui = rgb { 104 207 117 }
 }
 HUN = {
-	color = rgb { 249 126 98 }
-	color_ui = rgb { 255 164 127 }
+	color = rgb { 204 0 0 }
+	color_ui = rgb { 204 0 0 }
 }
 AFG = {
 	color = rgb { 64 160 167 }

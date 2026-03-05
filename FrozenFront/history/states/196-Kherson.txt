@@ -1,7 +1,7 @@
 state = {
 	id = 196
 	name = "STATE_196"
-	manpower = 728363
+	manpower = 528363
 	
 	state_category = rural
 	
@@ -10,14 +10,16 @@ state = {
 	}
 
 	history = {
-
-		owner = MLR
-		add_core_of = MLR
-		add_core_of = UKR
-		add_core_of = CRI
+	   owner = MLR
+	   add_core_of = MLR
+	   add_core_of = UKR
+	   add_core_of = CRI
 
 		victory_points = {
-			721 1 # Kherson
+			721 1 
+		}
+		victory_points = {
+			3573 2 
 		}
 		
 		buildings = {
@@ -32,7 +34,7 @@ state = {
 	}
 
 	provinces = {
-		568 721 737 767 3573 6771 9712 11715 
+		568 721 737 767 3573 6771 9712 
 	}
 
 	local_supplies = 0.0 

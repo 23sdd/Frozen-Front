@@ -1,0 +1,33 @@
+state = {
+	id = 1052
+	name = "STATE_1052"
+	manpower = 230000
+	
+	state_category = town
+	
+	resources = {
+		chromium = 15 # was: 22
+	}
+
+	history = {
+
+		owner = UKR
+		add_core_of = MLR
+		add_core_of = UKR
+
+		victory_points = {
+			11715 4 
+		}
+		
+		buildings = {
+			infrastructure = 3		
+		}
+		
+	}
+
+	provinces = {
+		11715 
+	}
+
+	local_supplies = 0.0 
+}

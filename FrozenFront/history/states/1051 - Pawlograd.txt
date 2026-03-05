@@ -1,0 +1,30 @@
+state={
+    id=1051
+    name="STATE_1051"
+    state_category = town
+    resources={
+		oil=5 # was: 6
+	}
+    history={
+        owner = MLR
+        add_core_of = UKR
+        add_core_of = MLR
+         victory_points = {
+            9463 2
+        }
+        victory_points = {
+            11452 5
+        }
+        buildings = {
+            infrastructure = 2
+            industrial_complex = 1
+        }
+    }
+
+    provinces={
+        453 472 486 9463 9479 11452
+    }
+    manpower=1231832
+    buildings_max_level_factor=1.000
+    local_supplies=0.0        
+}

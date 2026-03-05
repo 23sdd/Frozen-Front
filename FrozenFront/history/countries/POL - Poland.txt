@@ -1,6 +1,11 @@
 ﻿capital = 10
 
 oob = "POL_1936"
+
+create_faction = inter_marum
+add_to_faction = UKR
+add_to_faction = BLR
+
 if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "POL_1936_naval_mtg"

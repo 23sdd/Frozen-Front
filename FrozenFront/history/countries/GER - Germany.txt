@@ -124,16 +124,11 @@ set_technology = {
 }
 
 
-# Starting Stats of various kinds
+
 set_research_slots = 4
 set_convoys = 200
 set_war_support = 0.3
 
-
-
-
-
-# Setup German Politics
 set_politics = {
 	ruling_party = democratic
 	last_election = "1933.3.5"
