@@ -16,13 +16,6 @@ state = {
 		add_core_of = PRC
 		add_core_of = MEN
 
-		victory_points = {
-			7158 1 # Ulanqab 
-		}
-
-		victory_points = {
-			7631 1 # Kweisui/Hohhot 
-		}
 
 		buildings = {
 			infrastructure = 1
@@ -44,7 +37,7 @@ state = {
 	}
 
 	provinces = {
-		2087 4525 7158 7631 10424 10629 12403 12609 12880 
+		2087 4525  10629  12609 12880 
 	}
 
 	buildings_max_level_factor = 1.000

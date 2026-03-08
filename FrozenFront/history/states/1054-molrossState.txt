@@ -1,0 +1,21 @@
+state={
+	id=1054
+	name="STATE_1054"
+	manpower = 50000
+	state_category = rural 
+	history = {
+        owner = ZLR
+        victory_points = { 1545 1 } 
+        add_core_of = ZLR
+    }
+	provinces={
+		1545 1693 1732 4649 7613 7767 7832 7897 10368 10379 10698 12548 12618 
+	}
+	manpower=0
+	buildings_max_level_factor=1
+	local_supplies=0
+}
+
+    
+
+    

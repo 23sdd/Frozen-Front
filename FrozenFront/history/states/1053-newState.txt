@@ -1,0 +1,20 @@
+state = {
+    id = 1053
+    name = "STATE_1053"
+    manpower = 50000
+
+    state_category = rural 
+
+    history = {
+        owner = CKM
+        victory_points = { 7158 1 } 
+        add_core_of = CKM
+    }
+
+    provinces = {
+        7158 7631 10424 12403 
+    }
+
+    buildings_max_level_factor = 1.0
+    local_supplies = 0.0
+}

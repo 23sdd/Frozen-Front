@@ -7,10 +7,9 @@ state = {
 
 	history = { 
 
-		owner = MAN
-		add_core_of = CHI
-		add_core_of = MAN
-		add_core_of = PRC
+		owner = NBG
+		add_core_of = NBG
+	
 
 		victory_points = {
 			11836 1 # Tongliao

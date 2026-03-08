@@ -11,10 +11,8 @@ state = {
 	
 	history = {
 
-		owner = SHX
-		add_core_of = SHX
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = CKM
+		add_core_of = CKM
 
 		victory_points = {
 			4174 5 # Taiyuan 
