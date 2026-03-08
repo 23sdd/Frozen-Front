@@ -44,6 +44,39 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
+	division= {	
+		name = "Los Caballos de Venezuela"
+		location = 10747 # Caracas
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Los Caballos de Venezuela"
+		location = 10747 # Caracas
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Los Caballos de Venezuela"
+		location = 12798 # Caracas
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		name = "Los Caballos de Venezuela"
+		location = 3284 # Caracas
+		division_template = "División de Caballería"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+
+	}
+	
 
 	##### No notable navy #####
 }
