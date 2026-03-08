@@ -8,6 +8,11 @@ set_stability = 0.45
 	
 add_command_power = 20
 
+create_faction = red_front
+add_to_faction = BEL
+add_to_faction = LUX
+add_to_faction = SPM
+
 set_autonomy = {
     target = LUX
     autonomous_state = autonomy_puppet

@@ -11,8 +11,8 @@ state = {
 
 	history = {
 
-		owner = CKM
-		add_core_of = CKM
+		owner = MON
+		add_core_of = MON
 
 		1936.1.1 = {
 			IF = {

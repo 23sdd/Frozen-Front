@@ -11,9 +11,8 @@ state = {
 
 	history = {
 
-		owner = CHI
-		add_core_of = PRC
-		add_core_of = CHI
+		owner = LIK
+		add_core_of = LIK
 		1936.1.1 = {
 			IF = {
 				limit = {
