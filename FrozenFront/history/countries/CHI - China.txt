@@ -1,6 +1,6 @@
 ﻿capital = 1035 # Nanjing
 
-IF = {
+###IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}
@@ -62,14 +62,14 @@ IF = {
 		}
 	}
 }
-if = {
+###if = {
 	limit = { has_dlc = "Man the Guns" }
 		set_naval_oob = "CHI_1936_naval_mtg"
 	else = {
 		set_naval_oob = "CHI_1936_naval_legacy"
 	}
 }
-if = {
+###if = {
 	limit = { has_dlc = "By Blood Alone" }
 		set_air_oob = "CHI_1936_air_bba"
 		set_technology = {
@@ -89,7 +89,7 @@ if = {
 }
 
 
-IF = {
+###IF = {
 	limit = {
 		has_dlc = "No Compromise, No Surrender"
 	}

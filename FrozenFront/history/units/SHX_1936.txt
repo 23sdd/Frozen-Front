@@ -16,14 +16,35 @@ units = {
 	### Provincial Forces ###
 	division = {
 		name = "Suiyuan Jingbei"
-		location = 4174
+		location = 2087
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.2
 
 	}
 	division = {
 		name = "Chahar Jingbei"
-		location = 7158 
+		location = 2087 
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+		division = {
+		name = "Chahar Jingbei"
+		location = 2087 
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+		division = {
+		name = "Chahar Jingbei"
+		location = 2087 
+		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
+		start_equipment_factor = 0.2
+
+	}
+		division = {
+		name = "Chahar Jingbei"
+		location = 2087 
 		division_template = "Juntuán"		# Provincial militia unit (poor equipment and training)
 		start_equipment_factor = 0.2
 

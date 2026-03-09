@@ -26,9 +26,6 @@ state = {
 				remove_core_of = GXC
 			}
 		}
-		
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = { 
 			9938 1 # Shantou

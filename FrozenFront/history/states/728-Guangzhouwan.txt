@@ -11,9 +11,8 @@ state = {
 	
 	history = {
 
-		owner = FRA
-		add_core_of = CHI
-		add_core_of = PRC
+		owner = GXC
+		add_core_of = GXC
 
 		victory_points = {
 			11981 1 # Fort-Bayard

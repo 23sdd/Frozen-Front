@@ -11,8 +11,6 @@ state={
 
 		owner = SIK
 		add_core_of = SIK
-		add_core_of = CHI
-		add_core_of = PRC
 
 		victory_points = {
 			2074 1 # Ruoqiang 
@@ -22,26 +20,6 @@ state={
 			infrastructure = 1
 		}
 
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender" 
-				}
-				KHM = { transfer_state = PREV }
-				add_core_of = KHM
-			}
-		}
-
-		1938.10.25 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender" 
-				}
-				remove_core_of = KHM
-			}	
-			owner = SIK
-			controller = SIK		
-		}
 
 	}
 
