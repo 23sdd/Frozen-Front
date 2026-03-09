@@ -19,10 +19,6 @@ state={
 		}
 
 		victory_points = {
-			1776 1 # Genhe
-		}
-
-		victory_points = {
 			13150 1 # Hailar
 		}
 

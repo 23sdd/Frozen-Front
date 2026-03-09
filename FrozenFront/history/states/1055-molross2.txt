@@ -1,17 +1,25 @@
 state={
 	id=1055
 	name="STATE_1055"
-	manpower = 50000
 	state_category = rural 
 	history = {
         owner = ZLR
-        victory_points = { 1776 1 } 
         add_core_of = ZLR
+	
+		victory_points = {
+			1776 1 # Genhe
+		}
+				victory_points = {
+			4809 1 # Genhe
+		}
+	buildings = {
+			infrastructure = 2
+		}
     }
 	provinces={
 		1776 1847 4809 7697 7848 7873 10541 10675 12537 
 	}
-	manpower=0
+	manpower=4237713
 	buildings_max_level_factor=1
 	local_supplies=0
 }

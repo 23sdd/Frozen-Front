@@ -484,7 +484,7 @@ add_breakthrough_progress = {
 	value = 0.1
 }
 
-IF = {
+##IF = {
 	limit = {
 		NOT = { has_dlc = "No Step Back" }
 	}
@@ -495,7 +495,7 @@ IF = {
 	}
 	set_oob = "JAP_1936"
 }
-IF = {
+##IF = {
 	limit = {
 		has_dlc = "No Step Back"
 	}
@@ -507,7 +507,7 @@ IF = {
 	set_oob = "JAP_1936_nsb"
 }
 
-IF = {
+##IF = {
 	limit = {
 		has_dlc = "Man the Guns"
 	}
@@ -539,7 +539,7 @@ IF = {
 	}
 	set_naval_oob = "JAP_1936_naval"
 }
-IF = {
+##IF = {
 	limit = { 
 		NOT = { 
 			has_dlc = "Man the Guns" 
@@ -564,7 +564,7 @@ IF = {
 	set_naval_oob = "JAP_1936_naval_legacy"
 }
 
-IF = {
+###IF = {
 	limit = { 
 		has_dlc = "By Blood Alone" 
 	}

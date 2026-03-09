@@ -1,0 +1,34 @@
+division_template = {
+	name = "Pechotnaja Militcija"
+	division_names_group = YUN_INF_01
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+    	division= {	
+	    name = "Czjamusy garnizon 1"
+		location = 10463
+		division_template = "Pechotnaja Militcija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+            	division= {	
+	    name = "Czjamusy garnizon 2"
+		location = 10463
+		division_template = "Pechotnaja Militcija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+            	division= {	
+	    name = "CHejChe garnizon"
+		location = 1693
+		division_template = "Pechotnaja Militcija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+}        

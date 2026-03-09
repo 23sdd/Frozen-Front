@@ -1,7 +1,7 @@
 capital = 328 
 
-#oob="NBG_1936"
-
+oob="NBG_1936"
+set_convoys = 33
 set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.5

@@ -1,7 +1,7 @@
 capital = 1035 
 
 oob="LIK_1936"
-
+set_convoys = 35
 set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.5

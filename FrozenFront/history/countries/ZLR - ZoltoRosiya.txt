@@ -1,8 +1,8 @@
 capital = 717
  
 
-#oob="KCN_1936"
-
+oob="ZLR_1936"
+set_convoys = 5
 set_research_slots = 2
 set_stability = 0.3
 set_war_support = 0.5
