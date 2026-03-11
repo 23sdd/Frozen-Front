@@ -10,15 +10,6 @@ state = {
 		owner = CKM
 		add_core_of = CKM
 
-		1936.1.1 = {
-			IF = {
-				limit = {
-					has_dlc = "No Compromise, No Surrender"
-				}
-				add_core_of = HBC
-			}
-		}
-
 		buildings = {
 			infrastructure = 2 #was 3
 			industrial_complex = 1

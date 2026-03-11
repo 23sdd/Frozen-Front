@@ -350,6 +350,7 @@ SDK = "countries/Kolchak.txt"
 TDR = "countries/Tdemocratic.txt"
 TCR = "countries/Tcommunist.txt"
 TFC = "countries/Tfasi.txt"
+PIC = "countries/Pekin.txt"
 
 # SEA 
 EZO = "countries/Ezo Republic.txt"

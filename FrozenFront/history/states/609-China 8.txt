@@ -11,9 +11,8 @@ state = {
 
 	history = {
 
-		owner = KCN
-		add_core_of = KCN
-		add_core_of = KCN
+		owner = PIC
+		add_core_of = PIC
 
 		buildings = {
 			infrastructure = 3 # was: 5

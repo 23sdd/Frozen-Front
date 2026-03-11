@@ -1,0 +1,37 @@
+division_template = {
+	name = "International Mandat Guard"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+units = {
+    	division= {	
+	    name = "Russian Brigade"
+		location = 9843
+		division_template = "International Mandat Guard"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Australian Brigade"
+		location = 9843
+		division_template = "International Mandat Guard"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Japan Brigad"
+		location = 1052
+		division_template = "International Mandat Guard"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Great Britain Brigad"
+		location = 12026
+		division_template = "International Mandat Guard"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+        }
+}        

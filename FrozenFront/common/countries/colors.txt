@@ -6,6 +6,10 @@ ENG = {
 	color = rgb { 201 56 93 }
 	color_ui = rgb { 255 73 121 }
 }
+PIC = {
+	color = rgb { 102 102 255 }
+	color_ui = rgb { 102 102 255 }
+}
 WWC = {
 	color = rgb { 96 96 96 }
 	color_ui = rgb { 96 96 96 }

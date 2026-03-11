@@ -1,6 +1,6 @@
 capital = 570
 
-#oob = "AAU_1936"
+#oob = "SDK_1936"
 set_stability = 0.37
 set_war_support = 0.26
 set_research_slots = 3
