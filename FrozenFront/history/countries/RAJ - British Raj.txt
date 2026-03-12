@@ -1,21 +1,6 @@
 capital = 439
-if = {
-	limit = { has_dlc = "By Blood Alone" }
-		set_air_oob = "RAJ_1936_air_bba"
-		set_technology = {
-			aa_lmg = 1
-			engines_1 = 1
-			aircraft_construction = 1
-			iw_small_airframe = 1
-		}
-	else = {
-		set_air_oob = "RAJ_1936_air_legacy"
-		set_technology = {
-			CAS1 = 1
-			early_fighter = 1
-		}
-	}
-}
+
+oob = "RAJ_1936"
 
 set_stability = 0.6
 set_war_support = 0.1
@@ -193,18 +178,6 @@ if = {
 	}
 
 	add_to_tech_sharing_group = commonwealth_research
-}
-
-if = {
-	limit = {
-		has_dlc = "Graveyard of Empires"
-	}
-	add_dynamic_modifier = { modifier = idea_RAJ_agrarian_society } 		
-	set_variable = { RAJ_agrarian_society_conscription_factor = -0.72 } #3
-	set_variable = { RAJ_agrarian_society_mobilization_laws_cost_factor = 2.16 } #9
-	set_variable = { RAJ_agrarian_society_mobilization_speed = -0.72 } #3
-	add_ideas = idea_RAJ_great_depression_1
-
 }
 
 if = {
@@ -394,27 +367,6 @@ if = {
 	}
 }
 
-#432 = {
-#	add_dynamic_modifier = {
-#		modifier = malaria
-#	}
-#}
-#434 = {
-#	add_dynamic_modifier = {
-#		modifier = malaria
-#	}
-#}
-#640 = {
-#	add_dynamic_modifier = {
-#		modifier = malaria
-#	}
-#}
-#
-#288 = {
-#	add_dynamic_modifier = {
-#		modifier = malaria
-#	}
-#}
 
 every_owned_state = {
 	limit = { NOT = { state = 992 } } #province of Áden

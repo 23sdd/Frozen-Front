@@ -28,18 +28,318 @@ division_template = {
 		infantry = { x = 1 y = 1 }
 	}
 }
-
-units = {}
-	#India Command
-	
-	#Northern Command
-	
-	
-
-air_wings = {
-	### AHQ India
-	
-}
+units = {
+    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10735
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10735
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10735
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10735
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12774
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12774
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12774
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5105
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5105
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 5105
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 8005
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12754
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12754
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12763
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 12763
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 	10729	
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10729
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10898
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10898
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10898
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3456
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10772
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10772
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10772
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10772
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+		    	division= {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 10772
+		division_template = "Infantry Division"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+		}
+}		
 
 
 ##### Starting Production #####
