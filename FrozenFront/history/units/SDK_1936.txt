@@ -1,0 +1,225 @@
+division_template = {
+	name = "Tylowoj Garnizon"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+    priority = 0
+}
+division_template = {
+	name = "Pechotnaya Divizija"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+	}
+    support = {
+		engineer = { x = 0 y = 0 } 
+    }
+}
+division_template = {
+	name = "Gwardejskaya Pekchotnaya Divizija"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+        infantry = { x = 2 y = 1 }
+        artillery_brigade = { x = 2 y = 2 }
+	}
+    support = {
+		engineer = { x = 0 y = 0 } 		
+		artillery = { x = 0 y = 1 }
+	}
+}
+division_template = {
+	name = "Tankowaya Brigada"
+									
+	regiments = {
+    	light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }	
+		motorized = { x = 1 y = 0 }		
+		motorized = { x = 1 y = 1 }	
+	}
+}
+units = {
+    division= {	
+	    name = "Dalnevostochnaya Garnizonnaya Brigada"
+		location = 957
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "4th Sibirskaya Garnizonnaya Brigada"
+		location = 9604
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "3th Sibirskaya Garnizonnaya Brigada"
+		location = 4797
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "2th Sibirskaya Garnizonnaya Brigada"
+		location = 10696
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+                division= {	
+	    name = "1th Sibirskaya Garnizonnaya Brigada"
+		location = 1821
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Ural'skaya Garnizonnaya Brigada"
+		location = 9292
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "14st Pechotnaya Divizija"
+		location = 7274
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "13st Pechotnaya Divizija"
+		location = 7274
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "12st Pechotnaya Divizija"
+		location = 7274
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "11st Pechotnaya Divizija"
+		location = 7835
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "10st Pechotnaya Divizija"
+		location = 7835
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "9st Pechotnaya Divizija"
+		location = 4705
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "8st Pechotnaya Divizija"
+		location = 4705
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "7st Pechotnaya Divizija"
+		location = 12189
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "6st Pechotnaya Divizija"
+		location = 12189
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "5st Pechotnaya Divizija"
+		location = 12189
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "4st Pechotnaya Divizija"
+		location = 957
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "3st Pechotnaya Divizija"
+		location = 957
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "2nd Pechotnaya Divizija"
+		location = 7851
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "1st Pechotnaya Divizija"
+		location = 7851
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Divizija Sviatogo Georgia"
+		location = 10696
+		division_template = "Gwardejskaya Pekchotnaya Divizija"	 	
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Divizija Czernosotincew"
+		location = 7274
+		division_template = "Gwardejskaya Pekchotnaya Divizija"	 	
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Perwaja Imperatorskaya Divizija"
+		location = 10580
+		division_template = "Gwardejskaya Pekchotnaya Divizija"	 	
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+        }
+        division= {	
+	    name = "Perwaja Tankowaya Brigada"
+		location = 1821
+		division_template = "Tankowaya Brigada"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+        }
+}    

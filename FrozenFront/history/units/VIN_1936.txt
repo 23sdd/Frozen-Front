@@ -1,0 +1,61 @@
+division_template = {
+	name = "Lữ đoàn bộ binh"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+units = {
+    	division= {	
+	    name = "Hanoj first brigade"
+		location = 4075
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Hanoj Second brigade"
+		location = 4075
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Hanoj Third brigade"
+		location = 4075
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Sajgon first brigade"
+		location = 4401
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Sajgon Second brigade"
+		location = 4401
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Hjue brigade"
+		location = 10309
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+        division= {	
+	    name = "Kaobang brigade"
+		location = 9948
+		division_template = "Lữ đoàn bộ binh"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+        }
+}        
