@@ -1,0 +1,80 @@
+division_template = {
+	name = "Alash Batalion"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+    priority = 0
+}
+division_template = {
+	name = "Атқыштар дивизиясы"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+    division= {	
+	    name = "Alash Batalion"
+		location = 1591
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }    
+    division= {	
+	    name = "Alash Batalion"
+		location = 7597
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Alash Batalion"
+		location = 7597
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Alash Batalion"
+		location = 1668
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Alash Batalion"
+		location = 1668
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Alash Batalion"
+		location = 7341
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Alash Batalion"
+		location = 1591
+		division_template = "Alash Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Атқыштар дивизиясы"
+		location = 1591
+		division_template = "1 Атқыштар дивизиясы"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+}

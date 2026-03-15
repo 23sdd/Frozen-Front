@@ -1,0 +1,80 @@
+division_template = {
+	name = "Turkestan White Batalion"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+	}
+    priority = 0
+}
+division_template = {
+	name = "Pechotnaya Divizija"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+	}
+}
+units = {
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }  
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Turkestan White Batalion"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Turkestan White Batalion"
+		location = 4333
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+}

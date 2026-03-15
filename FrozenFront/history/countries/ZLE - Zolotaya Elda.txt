@@ -1,6 +1,6 @@
 capital = 586
 
-#oob = "KKZ_1936"
+oob = "ZLE_1936"
 
 set_research_slots = 2
 
@@ -10,12 +10,15 @@ set_technology = {
 }
 
 set_politics = {
-    ruling_party = communism
+    ruling_party = democratic
     last_election = "1936.1.1"
     election_frequency = 48
     elections_allowed = no
 }
 
 set_popularities = {
-    neutrality = 100
+	democratic = 55
+	fascism = 15
+	communism = 5
+	neutrality = 25
 }

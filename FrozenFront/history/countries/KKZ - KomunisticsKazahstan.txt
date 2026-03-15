@@ -1,6 +1,6 @@
 capital = 407
 
-#oob = "KKZ_1936"
+oob = "KKZ_1936"
 
 set_research_slots = 2
 
