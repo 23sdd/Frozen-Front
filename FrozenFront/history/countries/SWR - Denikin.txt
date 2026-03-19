@@ -1,5 +1,5 @@
 capital = 217
-###set_oob = ""
+set_oob = "SWR_1936"
 set_stability = 0.41
 set_war_support = 0.33
 set_research_slots = 2

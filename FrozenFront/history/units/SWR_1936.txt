@@ -1,0 +1,144 @@
+division_template = {
+	name = "Batalion Prchoty"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+    priority = 0
+}
+division_template = {
+	name = "Pechotnaya Divizija"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+        infantry = { x = 1 y = 1 }
+        infantry = { x = 1 y = 2 }
+	}
+    support = {
+		engineer = { x = 0 y = 0 } 
+    }
+}
+division_template = {
+	name = "Kozacka Diviziya"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 0 y = 3 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+units = {
+    division= {	
+	    name = "Batalion Prchoty"
+		location = 11523
+		division_template = "Batalion Prchoty"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Batalion Prchoty"
+		location = 9417
+		division_template = "Batalion Prchoty"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Batalion Prchoty"
+		location = 719
+		division_template = "Batalion Prchoty"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Batalion Prchoty"
+		location = 3686
+		division_template = "Batalion Prchoty"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Batalion Prchoty"
+		location = 3686
+		division_template = "Batalion Prchoty"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 11742
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 3734
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 3734
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 11696
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 9753
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 3529
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Pechotnaya Divizija"
+		location = 3529
+		division_template = "Pechotnaya Divizija"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Kozacka Diviziya"
+		location = 775
+		division_template = "Kozacka Diviziya"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Kozacka Diviziya"
+		location = 9417
+		division_template = "Kozacka Diviziya"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Kozacka Diviziya"
+		location = 3734
+		division_template = "Kozacka Diviziya"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+}        
