@@ -1,0 +1,55 @@
+division_template = {
+	name = "Tylowoj Garnizon"
+									
+	regiments = {
+		infantry = { x = 0 y = 0 }		
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+    priority = 0
+}
+units = {
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 418
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 11504
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 3568
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 3573
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 9463
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+    division= {	
+	    name = "Tylowoj Garnizon"
+		location = 6474
+		division_template = "Tylowoj Garnizon"	 	
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+    }
+}

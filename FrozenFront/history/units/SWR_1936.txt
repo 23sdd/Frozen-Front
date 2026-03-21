@@ -73,7 +73,7 @@ units = {
     }
     division= {	
 	    name = "Pechotnaya Divizija"
-		location = 11742
+		location = 11724
 		division_template = "Pechotnaya Divizija"	 	
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.7

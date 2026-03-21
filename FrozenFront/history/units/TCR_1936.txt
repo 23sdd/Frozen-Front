@@ -1,5 +1,5 @@
-﻿division_template = {
-	name = "Piyade Tümeni"  			# Infantry Division
+division_template = {
+	name = "Kızıl Ordu Tümeni"  			# Infantry Division
 
 	division_names_group = TUR_INF_01
 
@@ -16,7 +16,7 @@
 	}
 }
 division_template = {
-	name = "Dag Tugayi" 				# Mountain Brigade
+	name = "Kızıl Muhafız Bölümü" 				# Mountain Brigade
 
 	division_names_group = TUR_MTN_01
 
@@ -67,8 +67,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 11747
-		division_template = "Piyade Tümeni" 
+		location = 9932
+		division_template = "Kızıl Ordu Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -77,8 +77,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 11811
-		division_template = "Piyade Tümeni" 
+		location = 9868
+		division_template = "Kızıl Ordu Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -87,8 +87,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 11881
-		division_template = "Bogazi Tugay" 
+		location = 9860
+		division_template = "Kızıl Muhafız Bölümü" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -97,8 +97,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 11811
-		division_template = "Bogazi Tugay" 
+		location = 10472
+		division_template = "Kızıl Muhafız Bölümü" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -107,8 +107,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 6938
-		division_template = "Bogazi Tugay" 
+		location = 6935
+		division_template = "Kızıl Muhafız Bölümü" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -117,8 +117,8 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 3951
-		division_template = "Bogazi Tugay" 
+		location = 7530
+		division_template = "Kızıl Muhafız Bölümü" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 	}
@@ -127,7 +127,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 3951
+		location = 9868
 		division_template = "Süvari Tümeni" 
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5

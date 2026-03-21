@@ -1,5 +1,5 @@
 capital = 221
-###set_oob = ""
+set_oob = "MLR_1936"
 set_stability = 0.50
 set_war_support = 0.33
 set_research_slots = 2
