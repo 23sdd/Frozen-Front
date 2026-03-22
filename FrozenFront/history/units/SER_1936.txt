@@ -1,6 +1,6 @@
-﻿division_template = {
+division_template = {
 	name = "Pesadijska Divizija"
-	division_names_group = CRO_INF_01
+	division_names_group = YUG_INF_01
 	regiments = {
 		infantry = { x = 0 y = 0 }
 		infantry = { x = 0 y = 1 }
@@ -10,12 +10,12 @@
 		infantry = { x = 1 y = 2 }
 	}
 	support = {
-		engineer = { x = 0 y = 0 }   
+		engineer = { x = 0 y = 0 } 
 	}
 }
 division_template = {
-	name = "Alpine Odred"			
-	division_names_group = CRO_MTN_01
+	name = "Gorska Pesadija"
+	division_names_group = YUG_MTN_01
 	regiments = {
 		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
@@ -23,9 +23,9 @@ division_template = {
 	}
 }
 division_template = {
-	name = "Konjièka Divizija"
-	division_names_group = CRO_CAV_01
 
+	division_names_group = YUG_CAV_01
+	name = "Konjička Divizija" 
 	regiments = {
 		cavalry = { x = 0 y = 0 }
 		cavalry = { x = 0 y = 1 }
@@ -41,80 +41,49 @@ units = {
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11581
+		location = 9821
 		division_template = "Pesadijska Divizija"		
 		start_equipment_factor = 0.6
 		start_experience_factor = 0.3
 	}
-	division = {
+    division = {
 		division_name = { 
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 9627
+		location = 9602
 		division_template = "Pesadijska Divizija"		
 		start_equipment_factor = 0.6
 		start_experience_factor = 0.3
 	}
-	division = {
+    division = {
 		division_name = { 
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 11899
+		location = 11586
 		division_template = "Pesadijska Divizija"		
 		start_equipment_factor = 0.6
 		start_experience_factor = 0.3
 	}
-	division = {
+    division = {
 		division_name = { 
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 6983
+		location = 11586
 		division_template = "Pesadijska Divizija"		
 		start_equipment_factor = 0.6
 		start_experience_factor = 0.3
 	}
-	division = {
+    division = {
 		division_name = { 
 			is_name_ordered = yes
 			name_order = 1
 		}
-		location = 3943
-		division_template = "Pesadijska Divizija"		
-		start_equipment_factor = 0.6
-		start_experience_factor = 0.3
-	}
-	division = {
-		division_name = { 
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 9894
-		division_template = "Konjièka Divizija"		
-		start_equipment_factor = 0.7
-		start_experience_factor = 0.3
-	}
-	division = {
-		division_name = { 
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 606
-		division_template = "Alpine Odred"		
-		start_equipment_factor = 0.6
-		start_experience_factor = 0.3
-	}
-	division = {
-		division_name = { 
-			is_name_ordered = yes
-			name_order = 1
-		}
-		location = 6957
-		division_template = "Alpine Odred"		
+		location = 11586
+		division_template = "Gorska Pesadija"		
 		start_equipment_factor = 0.8
 		start_experience_factor = 0.3
 	}
 }
-

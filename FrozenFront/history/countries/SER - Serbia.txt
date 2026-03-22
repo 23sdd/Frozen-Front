@@ -1,6 +1,6 @@
 ﻿capital = 107
 
-###oob = ""
+oob = "SER_1936"
 
 set_research_slots = 3
 

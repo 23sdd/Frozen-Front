@@ -1,0 +1,27 @@
+state={
+	id=1057
+	name="STATE_1057"
+	manpower =340102
+	
+	
+	state_category = rural
+
+	history={
+		owner = CRO
+        victory_points = {
+			606 3
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+	    add_claim_by = CRO
+		add_core_of = BOS
+	}
+
+	provinces={
+		606 6799 9591 11572 11574
+	}
+
+	local_supplies=1.0 
+}

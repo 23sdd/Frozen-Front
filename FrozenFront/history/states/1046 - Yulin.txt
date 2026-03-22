@@ -1,6 +1,7 @@
 state={
 	id=1046
 	name="STATE_1046"
+	state_category = rural
 	resources={
 		coal = 12 #initial distribution
 	}

@@ -1,0 +1,33 @@
+state={
+	id=1056
+	name="STATE_1056"
+	manpower =13200
+	
+	
+	state_category = large_town
+	
+	resources={
+		aluminium=7 
+		coal = 2 
+	}
+
+	history={
+		owner = CRO
+		victory_points = {
+			11899 5 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+		}
+	    add_claim_by = CRO
+		add_core_of = BOS
+	}
+
+	provinces={
+		982 11741 11899
+	}
+
+	local_supplies=3.0 
+}
