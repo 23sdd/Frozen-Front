@@ -1,6 +1,6 @@
 ﻿capital = 378
 
-#ob = ""
+oob = "WCS_1936"
 
 
 set_stability = 0.6

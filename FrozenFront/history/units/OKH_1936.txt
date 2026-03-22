@@ -1,0 +1,45 @@
+division_template = {
+    name = "Sons of Sun"		
+
+	division_names_group = OKH_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+        cavalry = { x = 0 y = 2 }
+        cavalry = { x = 1 y = 0 }
+        cavalry = { x = 1 y = 1 }
+        cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+    division= {
+		name = "Sons of Sun"
+		location = 1806
+		division_template = "Sons of Sun"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}
+    division= {
+		name = "Sons of Sun"
+		location = 1806
+		division_template = "Sons of Sun"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}
+    division= {
+		name = "Sons of Sun"
+		location = 1806
+		division_template = "Sons of Sun"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}
+    division= {
+		name = "Sons of Sun"
+		location = 1806
+		division_template = "Sons of Sun"
+		start_experience_factor = 0.8
+		start_equipment_factor = 0.4
+	}
+}

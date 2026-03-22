@@ -1,5 +1,5 @@
 capital = 377
-# set_oob = "" # Если файла нет, лучше оставить закомментированным
+set_oob = "WWC_1936" 
 
 set_stability = 0.42
 set_war_support = 0.47

@@ -1,5 +1,5 @@
 capital = 383
-set_oob = ""
+set_oob = "SOI_1936"
 set_stability = 0.43
 set_war_support = 0.36
 

@@ -1,5 +1,5 @@
 capital = 388
-#set_oob = ""
+oob = "ANS_1936"
 set_stability = 0.3
 set_war_support = 0.1
 starting_train_buffer = 2
