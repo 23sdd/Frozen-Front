@@ -1,5 +1,5 @@
 ﻿division_template = {
-	name = "Dywizja Piechoty"		
+	name = "Legion Polski"		
 	division_names_group = POL_INF_01
 
 	regiments = {
@@ -47,6 +47,169 @@ division_template = {
 	}
 	support = {
 		recon = { x = 0 y = 0 }     
+	}
+}
+division_template = {
+	name = "Brygada Ochrony Pogranicza"			
+	division_names_group = POL_GAR_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	priority = 0
+}
+units = {
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3544
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3458
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3230
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3544
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3544
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3544
+		division_template = "Legion Polski"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11301
+		division_template = "Dywizja Piechoty Górskiej"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11301
+		division_template = "Brygada Kawalerii"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.8
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9511
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9508
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 9427
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11479
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 11399
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3254
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 442
+		division_template = "Brygada Ochrony Pogranicza"		
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
 	}
 }
 

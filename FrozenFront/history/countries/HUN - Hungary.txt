@@ -1,19 +1,6 @@
 ﻿capital = 43 # Budapest (Northern Hungary)
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_oob = "HUN_wuw_1936"
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "HUN_1936"
-	}
-}
+oob = "HUN_1936"
 
 IF = {
 	limit = { has_dlc = "By Blood Alone" }
@@ -32,15 +19,6 @@ IF = {
 		}
 	}
 }
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-		has_dlc = "By Blood Alone"
-	}
-	set_technology = {
-					photo_reconnaisance = 1
-	}
-}
 
 IF = {
 	limit = { has_dlc = "Man the Guns" }
@@ -54,35 +32,11 @@ IF = {
 	}
 }
 
-### SETUP THE CORRECT POLITICAL PARTIES ###
-
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_party_name = {
-	    ideology = fascism
-	    long_name = HUN_national_socialist_party_long
-	    name = HUN_national_socialist_party
-	}
-}
-
 set_research_slots = 3
 
-### SETUP STABILITY AND WAR SUPPORT ###
-IF = {
-	limit = {
-		NOT = {
-			has_dlc = "Gotterdammerung"
-		}
-	}
-	set_stability = 0.7
-	set_war_support = 0.6
-	ELSE = {
-		set_stability = 0.3
-		set_war_support = 0.4
-	}
-}
+set_stability = 0.3
+set_war_support = 0.4
+
 
 
 set_technology = {
@@ -115,93 +69,6 @@ IF = {
 	}
 }
 
-### SETUP NATIONAL SPIRITS NO WW ###
-IF = {
-	limit = {
-		AND = {
-			has_dlc = "Death or Dishonor"
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-	}
-	add_ideas = {
-		disarmed_nation
-	}
-	IF = {
-		limit = { has_dlc = "Arms Against Tyranny" }
-		add_ideas = { HUN_treaty_of_triannon_aat }
-	}
-	IF = {
-		limit = {
-			NOT = { has_dlc = "Arms Against Tyranny" }
-		}
-		add_ideas = { HUN_treaty_of_triannon }
-	}
-}
-
-### SETUP HUNGARO-GERMAN RELATIONS AND NATIONAL SPIRITS ###
-IF = {
-	limit = {
-		AND = {
-			has_dlc = "Death or Dishonor"
-			has_dlc = "Gotterdammerung"
-		}
-	}
-
-	add_ideas = {
-		disarmed_nation
-		HUN_gombos_trade_treaty
-		HUN_hungarian_national_defense_association
-		HUN_levente_associations
-	}
-
-	### OPINION MODIFIERS ###
-
-	add_opinion_modifier = {
-		target = GER
-		modifier = HUN_GER_trade_modifier
-	}	
-	GER = {
-		add_opinion_modifier = {
-			target = HUN
-			modifier = HUN_GER_trade_modifier
-		}	
-	}
-
-	add_opinion_modifier = {
-		target = POL
-		modifier = HUN_POL_friendship_modifier
-	}	
-	POL = {
-		add_opinion_modifier = {
-			target = HUN
-			modifier = HUN_POL_friendship_modifier
-		}	
-	}
-
-	IF = {
-		limit = { has_dlc = "Arms Against Tyranny" }
-		add_ideas = { HUN_treaty_of_triannon_aat_wuw }
-		add_relation_rule_override = { 
-			target = GER
-			usage_desc = HUN_gombos_trade_treaty_tt
-			can_access_market = yes
-		}
-		give_market_access = GER
-	}
-
-	IF = {
-		limit = {
-			NOT = { has_dlc = "Arms Against Tyranny" }
-		}
-		add_ideas = { HUN_treaty_of_triannon_wuw }
-	}
-
-}
-
-# The Academy of Sciences Modifier
-set_variable = { HUN_academy_of_sciences_research_speed_factor = 0.03 }
 
 ### PLANE VARIANTS ###
 IF = {
@@ -262,62 +129,8 @@ IF = {
 
 ### AH DYNAMIC MODIFIERS ###
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
 
-	# JOINT ECONOMY SPIRIT
-	set_variable = { global.HABSBURG_economy_stability_factor = 0.05 }
-	set_variable = { global.HABSBURG_economy_power_factor = 0.1 }	
-	set_variable = { global.HABSBURG_economy_consumer_goods_factor = 0.0 }	
-	set_variable = { global.HABSBURG_economy_research_sharing_per_country_bonus_factor = 0.0 }	
-	set_variable = { global.HABSBURG_economy_production_speed_industrial_complex_factor = 0.0 }	
-	set_variable = { global.HABSBURG_economy_trade_laws_cost_factor = 0.0 }	
-	set_variable = { global.HABSBURG_economy_economy_cost_factor = 0.0 }	
-	set_variable = { global.HABSBURG_economy_license_purchase_cost = 0.0 }	
-	set_variable = { global.HABSBURG_economy_license_production_speed = 0.0 }	
-	set_variable = { global.HABSBURG_economy_special_project_speed_factor = 0.0 }	
 
-	# JOINT INDUSTRY SPIRIT
-	set_variable = { global.HABSBURG_industry_production_speed_industrial_complex_factor = 0.1 }	
-	set_variable = { global.HABSBURG_industry_industrial_capacity_factory = 0.05 }	
-	set_variable = { global.HABSBURG_industry_local_resources_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_production_speed_rail_way_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_production_speed_supply_node_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_global_building_slots_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_production_speed_arms_factory_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_line_change_production_efficiency_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_industry_free_repair_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_industry_air_damage_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_production_lack_of_resource_penalty_factor = 0.00 }	
-	set_variable = { global.HABSBURG_industry_production_factory_max_efficiency_factor = 0.00 }	
-
-	# JOINT ARMY SPIRIT
-	set_variable = { global.HABSBURG_army_war_stability_factor = 0.1 }	
-	set_variable = { global.HABSBURG_army_land_doctrine_cost_factor = -0.1 }	
-	set_variable = { global.HABSBURG_army_conscription_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_experience_gain_army_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_max_command_power = 0.0 }	
-	set_variable = { global.HABSBURG_army_planning_speed = 0.0 }	
-	set_variable = { global.HABSBURG_army_army_speed_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_org_loss_when_moving = 0.0 }	
-	set_variable = { global.HABSBURG_army_supply_consumption_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_supply_node_range = 0.0 }	
-	set_variable = { global.HABSBURG_army_army_core_attack_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_army_core_defence_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_motorized_attack_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_army_armor_attack_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_fuel_gain_factor = 0.0 }	
-	set_variable = { global.HABSBURG_army_army_attack_factor = 0.0 }	
-
-	# JOINT HUSSAR SPIRIT
-	set_variable = { global.HABSBURG_cavalry_cavalry_attack_factor = 0.05 }	
-	set_variable = { global.HABSBURG_cavalry_cavalry_defence_factor = 0.1 }	
-	set_variable = { global.HABSBURG_army_conscription = 0.01 }	
-	set_variable = { global.HABSBURG_cavalry_breakthrough_factor = 0.00 }	
-
-}
 
 add_opinion_modifier = { 
 	target = CZE
@@ -328,7 +141,7 @@ add_opinion_modifier = {
 	modifier = BFTB_incongruous_neighbors
 }
 add_opinion_modifier = { 
-	target = YUG
+	target = SER
 	modifier = BFTB_incongruous_neighbors
 }
 
@@ -476,23 +289,6 @@ recruit_character = HUN_edward_teller
 recruit_character = HUN_laszlo_varga
 
 
-# HIRES THE STARTING PM
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	add_ideas = { HUN_gyula_gombos_de_jakfa }
-}
-
-add_breakthrough_progress = {
-	specialization = specialization_land
-	value = 0.2 # Due to Straussler
-}
-
-add_breakthrough_progress = {
-	specialization = specialization_air
-	value = 0.2 # Due to Azboth Oskar
-}
 
 
 # SETUP THE 1939 SCENARIO
