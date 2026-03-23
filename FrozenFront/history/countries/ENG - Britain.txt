@@ -1,39 +1,6 @@
 capital = 126
 
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-			has_dlc = "La Resistance"
-		}
-	}
-    set_oob = "ENG_1936"
-}
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "No Step Back"
-		}
-		has_dlc = "La Resistance"
-	}
-	set_oob = "ENG_1936_LaR"
-}
-if = {
-	limit = {
-		NOT = {
-			has_dlc = "La Resistance"
-		}
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ENG_1936_nsb"
-}
-if = {
-	limit = {
-		has_dlc = "La Resistance"
-		has_dlc = "No Step Back"
-	}
-	set_oob = "ENG_1936_nsb_LaR"
-}
+oob = "ENG_1936"
 
 starting_train_buffer = 4
 
@@ -137,6 +104,7 @@ set_technology = {
 	radio = 1
 	fuel_silos = 1
 	fuel_refining = 1
+	marines  = 1
 }
 
 set_grand_doctrine = grand_battleplan
