@@ -1,6 +1,6 @@
 ﻿capital = 2
 
-
+oob = "PAP_1936"
 
 set_research_slots = 3
 set_stability = 0.5
@@ -101,16 +101,16 @@ if = {
 set_convoys = 60
 
 set_politics = {
-	ruling_party = fascism
+	ruling_party = neutrality
 	last_election = "1934.3.26"
 	election_frequency = 60
 	elections_allowed = no
 }
 set_popularities = {
 	democratic = 10
-	fascism = 50
+	fascism = 40
 	communism = 0
-	neutrality = 40
+	neutrality = 50
 }
 
 

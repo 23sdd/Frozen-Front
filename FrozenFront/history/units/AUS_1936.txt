@@ -53,53 +53,116 @@ division_template = {
 
 
 units = {
-	##### Österreichisches Bundesheer #####
-	# I Korps
-	division= {	#Cavalry schnelle
+		division= {	
 		name = "Schnelle Division" 
-		location = 11666  # Vienna
+		location = 11666
 		division_template = "Schnelle Division"
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.3
 
 	}
 
-	division= {	# "1. Division"
+	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 1
 		}
-		location = 3700  # Eisenstadt 
+		location = 3700  
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
-	division= {	# "2. Division"			# Used to form 44. Infanterie-division post-Anschluss
+	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 2
 		}
-		location = 11666  # Vienna
+		location = 673  
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
 
 	}
-	division= {	# "3. Division"			# Used to form 44. Infanterie--division post-Anschluss
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11401  
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11432  
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 3585  
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 5283  
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 557  
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
+		division_name = {
+				is_name_ordered = yes
+				name_order = 2
+		}
+		location = 11598
+		division_template = "Infanterie Division"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+
+	}
+	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 3
 		}
-		location = 9648 # Graz
+		location = 9648 
 		division_template = "Infanterie Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 
-	# II Korps
-	division= {	# "4. Division"			# Used to form 45. Infanterie--division post-Anschluss
+	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 4
@@ -107,18 +170,18 @@ units = {
 		location = 9665 # Linz
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
-	division= {	# "5. Division"			# Used to form 3. Gebirgs-division post-Anschluss
+	division= {	
 		division_name = {
 				is_name_ordered = yes
 				name_order = 5
 		}
-		location = 9648  # Graz
+		location = 9648
 		division_template = "Alpenjäger Division"
 		start_experience_factor = 0.2
-		start_equipment_factor = 0.3
+		start_equipment_factor = 0.6
 
 	}
 }

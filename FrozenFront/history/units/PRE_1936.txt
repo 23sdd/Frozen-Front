@@ -1,0 +1,208 @@
+division_template = {
+	name = "Infanterie-Division"					
+	division_names_group = GER_Inf_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+division_template = {
+	name = "Freikorps"					
+	division_names_group = GER_Inf_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Gebirgs-Division"					
+	division_names_group = GER_Mnt_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }   
+	}
+}
+division_template = {
+	name = "Kavallerie-Brigaden"
+	division_names_group = GER_Cav_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Panzer-Division"		
+	division_names_group = GER_Arm_01
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		motorized = { x = 1 y = 0 }           
+		motorized = { x = 1 y = 1 }
+	}
+}
+units = {
+	division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6332  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6332  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6282  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9570  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6558  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3295  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6375  
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11372  
+		division_template = "Kavallerie-Brigaden"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3473  
+		division_template = "Kavallerie-Brigaden"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 279  
+		division_template = "Kavallerie-Brigaden"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 552  
+		division_template = "Freikorps"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9263  
+		division_template = "Freikorps"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 9263  
+		division_template = "Freikorps"
+		start_experience_factor = 0.3
+        start_equipment_factor = 0.7
+	}
+    division = {	
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6534  
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.5
+        start_equipment_factor = 0.9
+	}
+}

@@ -1,12 +1,12 @@
 ﻿capital = 160 # Rome
 
-ETH_set_up_lon_arms_resolution_effect = yes 
-#set_oob = "ITA_1936"
+oob = "ITA_1936"
 
 starting_train_buffer = 1.5
 
 set_research_slots = 4
-set_stability = 0.6
+set_stability = 0.37
+set_war_support = 0.3
 
 add_ideas = {
 }

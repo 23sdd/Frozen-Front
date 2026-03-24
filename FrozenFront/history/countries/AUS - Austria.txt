@@ -1,19 +1,7 @@
 ﻿capital = 4 # Vienna
 
-IF = {
-	limit = {
-		has_dlc = "Gotterdammerung"
-	}
-	set_oob = "AUS_ww_1936"
-	ELSE_IF = {
-		limit = {
-			NOT = {
-				has_dlc = "Gotterdammerung"
-			}
-		}
-		set_oob = "AUS_1936"
-	}
-}
+oob = "AUS_1936"
+
 
 if = {
 	limit = { has_dlc = "By Blood Alone" }
