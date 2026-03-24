@@ -1,5 +1,5 @@
 capital = 51
-
+oob = "RHI_1936"
 set_technology = {
 	infantry_weapons = 1
 	infantry_weapons1 = 1
@@ -10,8 +10,7 @@ set_technology = {
 	tech_trucks = 1
 	motorised_infantry = 1
 	gw_artillery = 1
-
-	
+	paratroopers = 1
 }
 
 set_grand_doctrine = new_mobile_warfare
@@ -52,3 +51,55 @@ add_ideas = {
 }
 
 recruit_character = RHI_josef_friedrich_matthes 
+
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		improved_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		improved_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+IF = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	create_equipment_variant = {
+		name = "PzII"
+		type = light_tank_chassis_0
+		parent_version = 0
+		obsolete = no
+		modules = {
+			main_armament_slot = tank_small_cannon
+			turret_type_slot = tank_light_one_man_tank_turret
+			suspension_type_slot = tank_bogie_suspension
+			armor_type_slot = tank_riveted_armor
+			engine_type_slot = tank_gasoline_engine
+		}
+		upgrades = {
+			tank_nsb_engine_upgrade = 0
+			tank_nsb_armor_upgrade = 1
+		}
+		#icon = "GFX_gwtank_medium"
+	}
+	add_equipment_to_stockpile = {
+		type = light_tank_chassis_0
+		amount = 15
+		variant_name = "PzII"
+	}
+}

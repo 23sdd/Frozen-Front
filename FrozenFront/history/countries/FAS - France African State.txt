@@ -91,7 +91,6 @@ IF = {
 		}
 		#icon = "GFX_gwtank_medium"
 	}
-
 	add_equipment_to_stockpile = {
 		type = light_tank_chassis_0
 		amount = 71
