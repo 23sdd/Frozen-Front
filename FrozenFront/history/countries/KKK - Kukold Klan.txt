@@ -1,5 +1,6 @@
 ﻿capital = 366 
 
+oob = "KKK_1936"
 set_research_slots = 3
 
 set_convoys = 50
