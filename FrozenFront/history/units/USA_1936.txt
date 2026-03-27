@@ -100,7 +100,92 @@ division_template = {
 ###### OOB ######
 
 
-
+units = {
+	division= {
+		name = "Infantry division"
+		location = 3878
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3878
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3878
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3878
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3957
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3957
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3957
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 3957
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 10412
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 10412
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 10412
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	division= {
+		name = "Infantry division"
+		location = 10412
+		division_template = "National Guard Division"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+}
 
 
 #########################
