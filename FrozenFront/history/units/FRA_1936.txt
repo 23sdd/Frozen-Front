@@ -1,6 +1,38 @@
 ﻿##### Division Templates #####
+division_template = {
+	name = "Garde rouge" 
+	division_names_group = FRA_INF_02
+	force_allow_recruiting = no
 
-
+	regiments = { 
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+	support = { 
+		engineer = { x = 0 y = 0 }
+	}
+}
+division_template = {
+	name = "Division d'Infanterie"		
+	division_names_group = FRA_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }
+	}
+}
 division_template = {
 	name = "Division d'Infanterie Motorisée"	# Division d'Infanterie Motorisée
 	division_names_group = FRA_MOT_01
@@ -17,29 +49,28 @@ division_template = {
 		motorized = { x = 2 y = 2 }
 	}
 	support = {
-		mot_recon = { x = 0 y = 0 }      # Recon Group consisted of 26 ACs + motorcycles
-		artillery = { x = 0 y = 1 }  # Heavy Arty Regiment had 1x 155mm, 1x 105mm battalions
+		mot_recon = { x = 0 y = 0 }     
+		artillery = { x = 0 y = 1 } 
 		engineer = { x = 0 y = 1 }
 	}
 }
 division_template = {
-	name = "Division d'Infanterie Alpine"	# Division d'Infanterie Alpine
+	name = "Division d'Infanterie Alpine"	
 	division_names_group = FRA_MNT_01
-	# Note: trimmed to 3x Rgts w/ arty bn added, 1939
 
 	regiments = {
-		mountaineers = { x = 0 y = 0 }	# Regular mountain infantry (Infanterie Alpine)
+		mountaineers = { x = 0 y = 0 }
 		mountaineers = { x = 0 y = 1 }
 		mountaineers = { x = 0 y = 2 }	
 		mountaineers = { x = 1 y = 0 }
 		mountaineers = { x = 1 y = 1 }
 		mountaineers = { x = 1 y = 2 }
-		mountaineers = { x = 2 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 2 y = 2 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 0 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 1 }	# Chasseurs Alpins (HOI3 elites)
-		mountaineers = { x = 3 y = 2 }	# Chasseurs Alpins (HOI3 elites)
+		mountaineers = { x = 2 y = 0 }	
+		mountaineers = { x = 2 y = 1 }	
+		mountaineers = { x = 2 y = 2 }	
+		mountaineers = { x = 3 y = 0 }	
+		mountaineers = { x = 3 y = 1 }	
+		mountaineers = { x = 3 y = 2 }	
 	}
 }
 division_template = {
@@ -67,22 +98,282 @@ division_template = {
 		light_armor = { x = 1 y = 1 }
 	}
 }
-division_template = {
-	name = "Brigade Coloniale"			# Represents: 2xRgt colonial forces and , usually with old equipment
-	division_names_group = FRA_COL_01
 
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-		infantry = { x = 1 y = 0 }
-		infantry = { x = 1 y = 1 }
-		infantry = { x = 1 y = 2 }
+units = {
+
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
 	}
-	priority = 0
-}
+division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11506
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
 
-##### OOB #####
+division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+
+division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11548
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11483
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11516
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9559
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9503
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6766
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6613
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9737
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 512
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3671
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3552
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9434
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9772
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3652
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 620
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 11465
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 6657
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 13011
+		division_template = "Garde rouge"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9898
+		division_template = "Division d'Infanterie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3768
+		division_template = "Division d'Infanterie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9523
+		division_template = "Division d'Infanterie Motorisée"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3560
+		division_template = "Brigade de Chars de Combat"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 3629
+		division_template = "Brigade de Chars de Combat"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division= {
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		}
+		location = 9642
+		division_template = "Division d'Infanterie Alpine"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.9
+	}
+}
 
 #########################
 ## STARTING PRODUCTION ##

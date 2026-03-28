@@ -21,7 +21,7 @@ division_template = {
 division_template = {
 	name = "Guardia Rossa" 
 	division_names_group = ITA_INF_02
-	force_allow_recruiting = yes
+	force_allow_recruiting = no
 
 	regiments = { 
 		militia = { x = 0 y = 0 }
