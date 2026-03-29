@@ -46,7 +46,10 @@ set_popularities = {
 }
 
 add_ideas = {
-	
+	FAS_idea_1
+	FAS_idea_2
+	FAS_idea_3
+	FAS_idea_4
 }
   ###TANKS###
 IF = {

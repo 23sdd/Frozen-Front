@@ -1,0 +1,72 @@
+ideas = {
+    country = {
+     
+    FAS_idea_1 = {
+       allowed = {
+        always = yes
+        tag = FAS
+    }
+    allowed_civil_war = {
+        always = yes
+    }
+    picture = NOR_sivog
+    modifier = {
+        stability_factor = -0.20
+		democratic_drift = -0.02
+        political_power_factor = -0.2
+		political_advisor_cost_factor = 0.25
+		war_support_factor = -0.30
+    }
+    }
+    FAS_idea_2 = {
+       allowed = {
+        always = yes
+        tag = FAS
+    }
+    allowed_civil_war = {
+        always = yes
+    }
+    picture = SOV_desperate_measures_ns_nsb_ccp_sov_compatibility
+    modifier = {
+                training_time_factor = -0.1
+            }
+            targeted_modifier = {
+                tag = FRA
+                defense_bonus_against = 0.15
+                attack_bonus_against = 0.10
+            }
+    }
+    FAS_idea_3 = {
+       allowed = {
+        always = yes
+        tag = FAS
+    }
+    allowed_civil_war = {
+        always = yes
+    }
+    picture = SWE_hedgehog_defense
+    modifier = {
+            production_factory_efficiency_gain_factor = -0.15
+			production_factory_max_efficiency_factor = -0.20
+			consumer_goods_factor = 0.25
+			production_speed_buildings_factor = -0.25
+    }
+
+   }
+   FAS_idea_4 = {
+       allowed = {
+        always = yes
+        tag = FAS
+    }
+    allowed_civil_war = {
+        always = yes
+    }
+    picture = SWE_hedgehog_defense
+    modifier = { 
+    army_defence_factor = -0.15
+	army_attack_factor = -0.15
+    }
+
+   }
+}
+}
