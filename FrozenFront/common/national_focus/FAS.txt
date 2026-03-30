@@ -40,8 +40,16 @@ focus_tree = {
 		available = {
 			always = yes
 		}
-        completion_reward = {
-		war_support_factor = -0.1
+		 completion_reward = {
+            add_country_leader_role = {
+                character = "FAS_paul"
+                country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+                promote_leader = yes 
+            }
         }
     }
     focus = {

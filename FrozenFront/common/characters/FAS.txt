@@ -1,0 +1,28 @@
+characters = {
+	FAS_pierre = {
+		name = "Étienne Flandin" 
+		portraits = {
+			civilian = {
+				large = GFX_pierre
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+    FAS_paul = {
+		name = "Paul Reynaud" 
+		portraits = {
+			civilian = {
+				large = GFX_paul
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

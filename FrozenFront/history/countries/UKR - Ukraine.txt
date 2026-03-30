@@ -121,11 +121,16 @@ set_popularities = {
 	fascism = 30
 	communism = 50
 }
-
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
 recruit_character = UKR_mykhailo_omelianovych_pavlenko
 recruit_character = UKR_stepan_bandera
 recruit_character = UKR_nikita_krushchyov
-recruit_character = UKR_kost_levytsky
+recruit_character = UKR_petlyra
 recruit_character = IA_olga_taratuta 
 recruit_character = UKR_pavlo_shandruk 
 

@@ -1,0 +1,15 @@
+characters = {
+	UKR_petlyra = {
+		name = "Symon Petlura" 
+		portraits = {
+			civilian = {
+				large = GFX_petlyra
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

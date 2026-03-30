@@ -1,0 +1,16 @@
+
+spriteTypes = {	
+    				
+	spriteType = {
+		name = "GFX_petlyra"
+		texturefile = "gfx/leaders/UKR/Portrait_UKR_petlyra.dds"
+	}
+	spriteType = {
+		name = "GFX_paul"
+		texturefile = "gfx/leaders/FAS/Portrait_FAS_paul.dds"
+	}
+	spriteType = {
+		name = "GFX_pierre"
+		texturefile = "gfx/leaders/FAS/Portrait_FAS_pierre.dds"
+	}
+}
