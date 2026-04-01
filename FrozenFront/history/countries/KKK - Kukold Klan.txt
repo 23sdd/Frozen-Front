@@ -26,3 +26,5 @@ set_party_name = {
     long_name = KKK_fascism_party_russian_long
     name = KKK_fascism_party_russian
 }
+
+recruit_character = KKK_hiramWesleyEvans

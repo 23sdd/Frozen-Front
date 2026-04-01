@@ -34,5 +34,8 @@ set_popularities = {
 	communism = 20
 }
 
-
+recruit_character = WCS_uptonSinclair
+recruit_character = WCS_frankMerrian
+recruit_character = WCS_culbertOlson
+recruit_character = WCS_hiramJohnson
 

@@ -13,4 +13,24 @@ spriteTypes = {
 		name = "GFX_pierre"
 		texturefile = "gfx/leaders/FAS/Portrait_FAS_pierre.dds"
 	}
+	spriteType = {
+		name = "GFX_frankMerrian"
+		texturefile = "gfx/leaders/WCS/Portrait_WCS_frankMerrian.dds"
+	}
+	spriteType = {
+		name = "GFX_culbertOlson"
+		texturefile = "gfx/leaders/WCS/Portrait_WCS_culbertOlson.dds"
+	}
+	spriteType = {
+		name = "GFX_hiramJohnson"
+		texturefile = "gfx/leaders/WCS/Portrait_WCS_hiramJohnson.dds"
+	}
+	spriteType = {
+		name = "GFX_uptonSinclair"
+		texturefile = "gfx/leaders/WCS/Portrait_WCS_uptonSinclair.dds"
+	}
+	spriteType = {
+		name = "GFX_hiramWesleyEvans"
+		texturefile = "gfx/leaders/KKK/Portraite_KKK_hiramWesleyEvans.dds"
+	}
 }

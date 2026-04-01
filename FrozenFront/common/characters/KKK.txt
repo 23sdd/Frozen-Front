@@ -1,0 +1,15 @@
+characters = {
+	KKK_hiramWesleyEvans = {
+		name = "Hiram Wesley Evans" 
+		portraits = {
+			civilian = {
+				large = GFX_hiramWesleyEvans
+			}
+		}
+		country_leader = {
+			ideology = gen_nazism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -1,0 +1,57 @@
+characters = {
+	WCS_frankMerrian = {
+		name = "Frank Merrian" 
+		portraits = {
+			civilian = {
+				large = GFX_frankMerrian
+			}
+		}
+		country_leader = {
+			ideology = conservatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+    WCS_culbertOlson = {
+		name = "Culbert Olson" 
+		portraits = {
+			civilian = {
+				large = GFX_culbertOlson
+			}
+		}
+		country_leader = {
+			ideology = moderatism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+    WCS_uptonSinclair = {
+		name = "Upton Sinclair" 
+		portraits = {
+			civilian = {
+				large = GFX_uptonSinclair
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+
+    WCS_hiramJohnson = {
+		name = "Hiram Johnson" 
+		portraits = {
+			civilian = {
+				large = GFX_hiramJohnson
+			}
+		}
+		country_leader = {
+			ideology = falangism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
