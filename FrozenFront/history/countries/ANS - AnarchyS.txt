@@ -29,6 +29,8 @@ set_popularities = {
 	communism = 64
 }
 
+recruit_character = ANS_emmaColdman
+
 add_ideas = {
 	
 }

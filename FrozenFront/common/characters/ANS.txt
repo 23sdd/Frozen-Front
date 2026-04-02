@@ -1,0 +1,15 @@
+characters = {
+	ANS_emmaColdman = {
+		name = "Emma Coldman" 
+		portraits = {
+			civilian = {
+				large = GFX_emmaColdman
+			}
+		}
+		country_leader = {
+			ideology = anarchist_communism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

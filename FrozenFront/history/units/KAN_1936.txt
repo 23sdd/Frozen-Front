@@ -16,10 +16,25 @@ division_template = {
     support = {
 		recon = { x = 0 y = 0 } 
         artillery = { x = 0 y = 1}
-        engineers = { x = 1 y = 2}
+        engineer = { x = 0 y = 2}
 	}
 }
-
+division_template = {
+	name = "Motorised infantry"	
+	
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+	}
+	support = {
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 }
+	}
+}
 units = {
     division= {
 		name = "Infantry division"
@@ -43,9 +58,9 @@ units = {
 		start_equipment_factor = 0.4
 	}
     division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 4569
-		division_template = "Infantry division"
+		division_template = "Motorised infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 	}
@@ -99,16 +114,16 @@ units = {
 		start_equipment_factor = 0.4
 	}
      division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 1866
-		division_template = "Infantry division"
+		division_template = "Motorised infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 	}
     division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 1866
-		division_template = "Infantry division"
+		division_template = "Motorised infantry"
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.4
 	}

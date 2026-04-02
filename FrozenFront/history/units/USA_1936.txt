@@ -21,9 +21,7 @@ division_template = {
 	}
 }
 division_template = {
-	name = "National Guard Division"  	# Standard formation for NG divisions through late 1940
-
-	division_names_group = USA_INF_01
+	name = "National Guard Division" 
 
 	regiments = {
 		infantry = { x = 0 y = 0 }
@@ -44,46 +42,29 @@ division_template = {
 		engineer = { x = 0 y = 1 }   # US Eng Rgt consisted of 2 Bns
 	}
 }
+
 division_template = {
-	name = "Cavalry Division"  		# 1st Cavalry Division only
-
-	division_names_group = USA_CAV_01
-
+	name = "Motorised infantry"	
+	
 	regiments = {
-		cavalry = { x = 0 y = 0 }
-		cavalry = { x = 0 y = 1 }
-		cavalry = { x = 0 y = 2 }
-		cavalry = { x = 0 y = 3 }
-		cavalry = { x = 1 y = 0 }
-		cavalry = { x = 1 y = 1 }
-		cavalry = { x = 1 y = 2 }
-		cavalry = { x = 1 y = 3 }
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		motorized = { x = 2 y = 0 }
+		motorized = { x = 2 y = 1 }
+		motorized = { x = 2 y = 2 }
 	}
 	support = {
-		light_tank_recon = { x = 0 y = 0 }      # US Cav Recon consisted of 52 ACs, 13 L Arm
-		engineer = { x = 0 y = 1 }   # US Eng Bn
+		recon = { x = 0 y = 0 } 		
+		engineer = { x = 0 y = 1 }
 	}
-}
-division_template = {
-	name = "Garrison Brigade"  		# used for island defense (older equipment, lower experience)
-
-	division_names_group = USA_GAR_01		# Brigade level irregular unit, so no default names
-
-	regiments = {
-		infantry = { x = 0 y = 0 }
-		infantry = { x = 0 y = 1 }
-		infantry = { x = 0 y = 2 }
-	}
-	support = {
-		engineer = { x = 0 y = 0 }
-	}
-	priority = 0
 }
 
 division_template = {
-	name = "Marine Brigade" 		# 1st, 2nd Marine Brigades, precursors to 1st, 2nd USMC Divisions
-
-	division_names_group = USA_MAR_01
+	name = "Marine Brigade" 		
 
 	regiments = {
 		marine = { x = 0 y = 0 }
@@ -94,7 +75,7 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 	}
-	priority = 2
+	priority = 3
 }
 
 ###### OOB ######
@@ -158,32 +139,39 @@ units = {
 		start_equipment_factor = 0.4
 	}
 	division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 10412
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		division_template = "Motorised infantry"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
 	}
 	division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 10412
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		division_template = "Motorised infantry"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
 	}
 	division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 10412
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		division_template = "Motorised infantry"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
 	}
 	division= {
-		name = "Infantry division"
+		name = "Motorised infantry"
 		location = 10412
-		division_template = "National Guard Division"
-		start_experience_factor = 0.3
-		start_equipment_factor = 0.4
+		division_template = "Motorised infantry"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+	division= {
+		name = "Motorised infantry"
+		location = 10412
+		division_template = "Motorised infantry"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
 	}
 }
 

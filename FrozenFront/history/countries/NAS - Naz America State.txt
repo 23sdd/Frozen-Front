@@ -11,6 +11,21 @@ set_technology = {
 	tech_trucks = 1
 	gw_artillery = 1
 	interwar_antiair = 1
+    motorised_infantry = 1
+}
+
+add_equipment_to_stockpile = {
+	type = motorized_equipment_1
+	amount = 80
+}
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 3000
+}
+
+add_equipment_to_stockpile = {
+    type = support_equipment_1 
+    amount = 200
 }
 
 set_politics = {

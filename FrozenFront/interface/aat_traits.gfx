@@ -33,4 +33,8 @@ spriteTypes = {
 		name = "GFX_hiramWesleyEvans"
 		texturefile = "gfx/leaders/KKK/Portraite_KKK_hiramWesleyEvans.dds"
 	}
+	spriteType = {
+		name = "GFX_emmaColdman"
+		texturefile = "gfx/leaders/ANS/Portrait_ANS_Emma_Coldman.dds"
+	}
 }
