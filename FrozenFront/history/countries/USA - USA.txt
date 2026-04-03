@@ -444,7 +444,6 @@ recruit_character = USA_dwight_d_eisenhower
 recruit_character = USA_geoffrey_keyes
 recruit_character = USA_lucian_truscott
 recruit_character = USA_mark_clark
-recruit_character = USA_douglas_macarthur
 recruit_character = USA_walter_krueger
 recruit_character = USA_lloyd_fredendall
 recruit_character = USA_leslie_mcnair

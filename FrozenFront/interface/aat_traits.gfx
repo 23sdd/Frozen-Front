@@ -37,4 +37,8 @@ spriteTypes = {
 		name = "GFX_emmaColdman"
 		texturefile = "gfx/leaders/ANS/Portrait_ANS_Emma_Coldman.dds"
 	}
+	spriteType = {
+		name = "GFX_douglasMCarthur"
+		texturefile = "gfx/leaders/WWC/Portraite_WWC_douglasMCarthur.dds"
+	}
 }

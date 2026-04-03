@@ -1,0 +1,15 @@
+characters = {
+	WWC_douglasMCarthur = {
+		name = "Douglas MacArthur" 
+		portraits = {
+			civilian = {
+				large = GFX_douglasMCarthur
+			}
+		}
+		country_leader = {
+			ideology = militarism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
