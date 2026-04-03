@@ -41,4 +41,8 @@ spriteTypes = {
 		name = "GFX_douglasMCarthur"
 		texturefile = "gfx/leaders/WWC/Portraite_WWC_douglasMCarthur.dds"
 	}
+	spriteType = {
+		name = "GFX_kolchak"
+		texturefile = "gfx/leaders/SDK/Portrait_SDK_kolchak.dds"
+	}
 }

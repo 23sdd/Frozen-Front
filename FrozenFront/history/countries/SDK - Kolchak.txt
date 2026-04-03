@@ -33,6 +33,8 @@ set_popularities = {
     neutrality = 63
 }
 
+recruit_character = SDK_ALexandr_Kolchak
+
 ###TANKS
  IF = {
 	limit = {

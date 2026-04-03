@@ -1,0 +1,15 @@
+characters = {
+	SDK_ALexandr_Kolchak = {
+		name = "Alexander Kolchak" 
+		portraits = {
+			civilian = {
+				large = GFX_kolchak
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
