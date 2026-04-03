@@ -105,3 +105,4 @@ create_equipment_variant = {
 		variant_name = "T-16GM"
 	}
 }
+recruit_character = SDK_ALexandr_Kolchak
