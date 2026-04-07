@@ -236,6 +236,8 @@ set_popularities = {
 	communism = 64
 }
 
+recruit_character = FRA_Marcel_Cachin
+
 add_ideas = {
 }
 

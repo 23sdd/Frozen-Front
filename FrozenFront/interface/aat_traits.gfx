@@ -45,4 +45,12 @@ spriteTypes = {
 		name = "GFX_kolchak"
 		texturefile = "gfx/leaders/SDK/Portrait_SDK_kolchak.dds"
 	}
+	spriteType = {
+		name = "GFX_Marcel"
+		texturefile = "gfx/leaders/FRA/Portrait_FRA_Marcel.dds"
+	}
+	spriteType = {
+		name = "GFX_bro"
+		texturefile = "gfx/leaders/NBG/Portrait_NBG_bro.dds"
+	}
 }

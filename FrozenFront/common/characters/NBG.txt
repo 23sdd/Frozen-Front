@@ -1,0 +1,15 @@
+characters = {
+	NBG_bro = {
+		name = "Older Brother" 
+		portraits = {
+			civilian = {
+				large = GFX_bro
+			}
+		}
+		country_leader = {
+			ideology = spiritualism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

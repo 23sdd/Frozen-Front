@@ -1,0 +1,15 @@
+characters = {
+	FRA_Marcel_Cachin = {
+		name = "Marcel Cachin" 
+		portraits = {
+			civilian = {
+				large = GFX_Marcel
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}
