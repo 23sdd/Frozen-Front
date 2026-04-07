@@ -1,0 +1,13 @@
+ideas = {
+    political_advisor = {
+        COG_eugene_jungers = {
+            picture = generic_political_advisor_europe_1
+            allowed = {
+                original_tag = COG
+            }
+            traits = {
+                captain_of_industry # Or whatever trait you want
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+ideas = {
+    political_advisor = {
+        TUR_nuri_demirag = {
+            # Dummy idea to clear the error log
+        }
+    }
+}
