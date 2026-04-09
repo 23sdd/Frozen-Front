@@ -1,4 +1,5 @@
 
+
 political_actions = {
 	PAR_flip_to_fascism = {
 		priority = 20
