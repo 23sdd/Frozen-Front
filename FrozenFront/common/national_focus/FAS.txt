@@ -317,4 +317,24 @@ focus_tree = {
 		war_support_factor = -0.1
         }
     }
+    focus = {
+        id = expantion_focuses_2
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
+        prerequisite = { focus = expantion_focuses_1}
+        x = 30
+        y = 1
+        cost = 5
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+		create_wargoal = {
+            type = annex_everything
+            target = FRA
+        }
+        }
+    }
 }

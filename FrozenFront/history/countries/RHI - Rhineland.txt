@@ -49,7 +49,7 @@ set_popularities = {
 
 add_ideas = {
 }
-
+recruit_character = RHI_talman
 recruit_character = RHI_josef_friedrich_matthes 
 
 if = {
