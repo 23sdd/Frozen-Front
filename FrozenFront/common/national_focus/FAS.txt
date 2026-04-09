@@ -14,7 +14,7 @@ focus_tree = {
     focus = {
         id = political_focuses_1
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
-        x = 10
+        x = 12
         y = 0
         cost = 3
         ai_will_do = {
@@ -31,7 +31,7 @@ focus_tree = {
         id = political_focuses_2
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_1 }
-        x = 10
+        x = 12
         y = 1
         cost = 3
         ai_will_do = {
@@ -56,7 +56,7 @@ focus_tree = {
         id = political_focuses_3
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_2 }
-        x = 10
+        x = 12
         y = 2
         cost = 3
         ai_will_do = {
@@ -74,7 +74,7 @@ focus_tree = {
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_3 }
         mutually_exclusive = { focus = political_focuses_5 }
-        x = 7
+        x = 9
         y = 3
         cost = 3
         ai_will_do = {
@@ -91,8 +91,25 @@ focus_tree = {
         id = political_focuses_right_wing_1
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_4 }
-        x = 7
+        x = 9
         y = 4
+        cost = 3
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+		war_support_factor = -0.1
+        }
+    }
+    focus = {
+        id = political_focuses_right_wing_2
+        icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
+        prerequisite = { focus = political_focuses_right_wing_1 }
+        x = 7
+        y = 5
         cost = 3
         ai_will_do = {
 			factor = 1
@@ -109,7 +126,7 @@ focus_tree = {
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_3 }
         mutually_exclusive = { focus = political_focuses_4 }
-        x = 13
+        x = 15
         y = 3
         cost = 3
         ai_will_do = {
@@ -126,7 +143,7 @@ focus_tree = {
         id = political_focuses_left_wing_1
         icon = GFX_SOV_committee_in_exile_ccp_2d_sov_compatibility 
         prerequisite = { focus = political_focuses_5 }
-        x = 13
+        x = 15
         y = 4
         cost = 3
         ai_will_do = {
@@ -158,7 +175,7 @@ focus_tree = {
     focus = {
         id = industryal_focuses_1
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
-        x = 22
+        x = 24
         y = 0
         cost = 3
         ai_will_do = {
@@ -175,7 +192,7 @@ focus_tree = {
         id = industryal_focuses_2
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_1 }
-        x = 23
+        x = 25
         y = 1
         cost = 3
         ai_will_do = {
@@ -203,7 +220,7 @@ focus_tree = {
         id = industryal_focuses_3
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_1 }
-        x = 21
+        x = 23
         y = 1
         cost = 3
         ai_will_do = {
@@ -220,7 +237,7 @@ focus_tree = {
         id = industryal_focuses_4
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_2 }
-        x = 23
+        x = 25
         y = 2
         cost = 3
         ai_will_do = {
@@ -236,7 +253,7 @@ focus_tree = {
         id = industryal_focuses_5
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_3 }
-        x = 21
+        x = 23
         y = 2
         cost = 3
         ai_will_do = {
@@ -253,7 +270,7 @@ focus_tree = {
         id = industryal_focuses_6
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_4 }
-        x = 23
+        x = 25
         y = 3
         cost = 3
         ai_will_do = {
@@ -270,7 +287,7 @@ focus_tree = {
         id = industryal_focuses_7
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_5 }
-        x = 21
+        x = 23
         y = 3
         cost = 3
         ai_will_do = {
@@ -288,7 +305,7 @@ focus_tree = {
         icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
         prerequisite = { focus = industryal_focuses_7}
         prerequisite = { focus = industryal_focuses_6}
-        x = 22
+        x = 24
         y = 4
         cost = 3
         ai_will_do = {
@@ -304,7 +321,7 @@ focus_tree = {
     focus = {
         id = expantion_focuses_1
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
-        x = 30
+        x = 32
         y = 0
         cost = 3
         ai_will_do = {
@@ -321,7 +338,7 @@ focus_tree = {
         id = expantion_focuses_2
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
         prerequisite = { focus = expantion_focuses_1}
-        x = 30
+        x = 32
         y = 1
         cost = 5
         ai_will_do = {

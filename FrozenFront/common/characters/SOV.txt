@@ -1,0 +1,15 @@
+characters = {
+	SOV_Trotski = {
+		name = "Lev Trotsky" 
+		portraits = {
+			civilian = {
+				large = GFX_trotski
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

@@ -587,7 +587,7 @@ division= {
 			is_name_ordered = yes
 			name_order = 801
 		}
-		location = 6354
+		location = 11298
 		division_template = "Kavaleriyskaya Diviziya"
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.7

@@ -29,7 +29,7 @@ recruit_character = SOV_vsevolod_merkulov
 recruit_character = SOV_vyacheslav_molotov
 recruit_character = SOV_maksim_litvinov
 
-recruit_character = SOV_lev_trotsky
+recruit_character = SOV_Trotski
 recruit_character = SOV_ivan_smirnov
 recruit_character = SOV_ivar_smilga
 recruit_character = SOV_karl_radek

@@ -57,4 +57,8 @@ spriteTypes = {
 		name = "GFX_talman"
 		texturefile = "gfx/leaders/RHI/Portraite_RHI_talman.dds"
 	}
+	spriteType = {
+		name = "GFX_trotski"
+		texturefile = "gfx/leaders/SOV/Portraite_SOV_trotski.dds"
+	}
 }
