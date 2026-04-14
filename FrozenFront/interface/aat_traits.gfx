@@ -61,4 +61,20 @@ spriteTypes = {
 		name = "GFX_trotski"
 		texturefile = "gfx/leaders/SOV/Portraite_SOV_trotski.dds"
 	}
+	spriteType = {
+		name = "GFX_Skoropadskyi"
+		texturefile = "gfx/leaders/MLR/Portraite_MLR_Skoropadskyi.dds"
+	}
+	spriteType = {
+		name = "GFX_Denikin"
+		texturefile = "gfx/leaders/SWR/Portrait_SWR_Denikin.dds"
+	}
+	spriteType = {
+		name = "GFX_Wrangel"
+		texturefile = "gfx/leaders/SWR/Portrait_SWR_Wrangel.dds"
+	}
+	spriteType = {
+		name = "GFX_vaclaw"
+		texturefile = "gfx/leaders/BLR/Portraite_BLR_vaclaw.dds"
+	}
 }

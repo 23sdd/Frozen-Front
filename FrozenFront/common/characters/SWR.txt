@@ -1,0 +1,32 @@
+characters = {
+	SWR_Denikin = {
+		name = "Anton Denikin" 
+		portraits = {
+			civilian = {
+				large = GFX_Denikin
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+    SWR_Wrangel = {
+		name = "Piotr Wrangel" 
+		portraits = {
+			civilian = {
+				large = GFX_Wrangel
+			}
+		}
+		field_marshal = {
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 4
+            id = -1
+            traits = { commando }
+        }
+	}
+}

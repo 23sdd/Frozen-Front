@@ -1,0 +1,15 @@
+characters = {
+	MLR_Skoropadskyi = {
+		name = "Pawlo Skoropadskyi" 
+		portraits = {
+			civilian = {
+				large = GFX_Skoropadskyi
+			}
+		}
+		country_leader = {
+			ideology = oligarchism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

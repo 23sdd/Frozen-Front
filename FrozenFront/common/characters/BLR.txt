@@ -1,0 +1,15 @@
+characters = {
+	BLR_vaclaw = {
+		name = "Vatslaw Lastowski" 
+		portraits = {
+			civilian = {
+				large = GFX_vaclaw
+			}
+		}
+		country_leader = {
+			ideology = liberalism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

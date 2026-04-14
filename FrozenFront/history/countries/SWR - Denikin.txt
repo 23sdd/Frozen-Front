@@ -35,6 +35,9 @@ set_popularities = {
 	communism = 1
 }
 
+recruit_character = SWR_Denikin
+recruit_character = SWR_Wrangel
+
 add_ideas = {
 	
 }

@@ -92,15 +92,14 @@ if = {
 }
 
 set_popularities = {
-	democratic = 15
+	democratic = 60
 	neutrality = 20
-	communism = 60
+	communism = 15
 	fascism = 5
 }
 
-recruit_character = BLR_adam_stankievic
-recruit_character = BLR_panteleimon_ponomarenko
-recruit_character = BLR_radislau_astrouski
+recruit_character = BLR_vaclaw
+
 
 
 

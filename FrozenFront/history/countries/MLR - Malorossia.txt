@@ -29,6 +29,8 @@ set_popularities = {
 	communism = 1
 }
 
+recruit_character = MLR_Skoropadskyi
+
 add_ideas = {
 	
 }
