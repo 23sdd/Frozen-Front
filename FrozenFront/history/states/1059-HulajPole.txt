@@ -1,0 +1,25 @@
+state={
+	id=1059
+	name="STATE_1059"
+	manpower =63984
+	
+	
+	state_category = rural
+
+	history={
+		owner = MLR
+        victory_points = {
+			429 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = MLR
+	}
+
+	provinces={
+		429
+	}
+
+	local_supplies=2.0 
+}

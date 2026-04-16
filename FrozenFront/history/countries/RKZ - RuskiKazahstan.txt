@@ -16,7 +16,10 @@ set_politics = {
     elections_allowed = no
 }
 
+recruit_character = RKZ_Kornilov
+
 set_popularities = {
     neutrality = 60
     democratic = 40
 }
+

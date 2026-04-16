@@ -1,0 +1,15 @@
+characters = {
+	RKZ_Kornilov = {
+		name = "Lawr Kornilov" 
+		portraits = {
+			civilian = {
+				large = GFX_Kornilov
+			}
+		}
+		country_leader = {
+			ideology = despotism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

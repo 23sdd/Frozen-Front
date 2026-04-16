@@ -77,4 +77,8 @@ spriteTypes = {
 		name = "GFX_vaclaw"
 		texturefile = "gfx/leaders/BLR/Portraite_BLR_vaclaw.dds"
 	}
+	spriteType = {
+		name = "GFX_Kornilov"
+		texturefile = "gfx/leaders/RKZ/Portraite_RKZ_Kornilov.dds"
+	}
 }
