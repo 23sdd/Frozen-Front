@@ -392,7 +392,7 @@ focus_tree = {
     }
     focus = {
         id = industryal_focuses_1
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_focus_SOV_organize_wreckers 
         available = {
          has_country_flag = full_political_stabilisanion
         }
@@ -406,16 +406,105 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
-		war_support_factor = -0.1
+        add_tech_bonus = {
+            name = fas_industry_research_bonus   
+            bonus = 2          
+            uses = 4            
+            category = industry  
+            category = electronics
+        }
         }
     }
     focus = {
-        id = industryal_focuses_2
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        id = industryal_focuses_ideologi_1
+        icon = GFX_focus_generic_annex_country 
         prerequisite = { focus = industryal_focuses_1 }
-        x = 25
+        available = {
+            OR = {
+        has_government = fascism
+        has_government = communism
+            }
+        }
+        x = 24
         y = 1
-        cost = 3
+        cost = 5
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+        }
+    }
+    focus = {
+        id = industryal_focuses_ideologi_2
+        mutually_exclusive = { focus = industryal_focuses_ideologi_3 }
+        icon = GFX_focus_generic_annex_country_2 
+        prerequisite = { focus = industryal_focuses_ideologi_1 }
+        available = {
+        has_government = communism
+        }
+        x = 23
+        y = 2
+        cost = 10
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+        }
+    }
+    focus = {
+        id = industryal_focuses_ideologi_3
+        icon = GFX_focus_focus_fra_revolution_utmost 
+        mutually_exclusive = { focus = industryal_focuses_ideologi_2 }
+        prerequisite = { focus = industryal_focuses_ideologi_1 }
+        available = {
+        has_government = fascism
+        }
+        x = 25
+        y = 2
+        cost = 10
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+        }
+    }
+    focus = {
+        id = industryal_focuses_ideologi_4
+        icon = GFX_focus_RAJ_enrollment_of_dali_children
+        prerequisite = { focus = industryal_focuses_ideologi_2 focus = industryal_focuses_ideologi_3 } 
+        x = 24
+        y = 3
+        cost = 10
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+			always = yes
+		}
+        completion_reward = {
+        }
+    }
+    
+    focus = {
+        id = industryal_focuses_2
+        icon = GFX_SOV_oil_production_ccp_2d_sov_compatibility 
+        prerequisite = { focus = industryal_focuses_1 }
+        available = {
+        owns_state = 274  
+        has_full_control_of_state = 274   
+        }
+        x = 26
+        y = 1
+        cost = 6
         ai_will_do = {
 			factor = 1
 		}
@@ -423,6 +512,12 @@ focus_tree = {
 			always = yes
 		}
 		completion_reward = {
+        274 = {                
+         add_manpower = -4372
+         }
+         779 = {                
+         add_manpower = -2812
+         }
 			779 = {
 				add_resource = {
 					type = aluminium
@@ -435,32 +530,65 @@ focus_tree = {
 					amount = 7
 				}
 			}
+            274 = {
+            add_resource = {
+                type = oil
+                amount = 6
+            }
 		}
     }
+    }
+    
     focus = {
         id = industryal_focuses_3
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_goal_generic_construct_infrastructure 
         prerequisite = { focus = industryal_focuses_1 }
-        x = 23
+        x = 22
         y = 1
-        cost = 3
+        cost = 6
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
-		}
+        owns_state = 779  
+        has_full_control_of_state = 779  
+        owns_state = 274  
+        has_full_control_of_state = 274 
+        owns_state = 777  
+        has_full_control_of_state = 777
+        owns_state = 776  
+        has_full_control_of_state = 776
+        owns_state = 558  
+        has_full_control_of_state = 558
+        }
         completion_reward = {
-		war_support_factor = -0.1
+        build_railway = {
+				path = { 10803 12742 10862 12785 1951 10919 2050 }
+			}
+        build_railway = {
+				path = { 12785 8039 10836 }
+			}
+        778 = {
+            add_building_construction = {
+                type = supply_node
+                level = 1
+                instant_build = yes
+                province = 10836     
+            }
+        }    
         }
     }
     focus = {
         id = industryal_focuses_4
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_goal_generic_construct_naval_dockyard 
         prerequisite = { focus = industryal_focuses_2 }
-        x = 25
+        available = {
+        owns_state = 274  
+        has_full_control_of_state = 274   
+        }
+        x = 27
         y = 2
-        cost = 3
+        cost = 7
         ai_will_do = {
 			factor = 1
 		}
@@ -468,82 +596,199 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
+        274 = {
+            set_state_category = city   
+        }
+        274 = {
+            add_building_construction = {
+                type = dockyard
+                level = 1
+                instant_build = yes   
+            }
+        }
+        10862 = {
+            add_building_construction = {
+                type = naval_base
+                level = 2            
+                province = 10803
+                instant_build = yes
+            }
+        }
         }
     }
     focus = {
         id = industryal_focuses_5
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_focus_CHL_enlarge_the_textile_industries 
         prerequisite = { focus = industryal_focuses_3 }
-        x = 23
+        x = 21
         y = 2
-        cost = 3
+        cost = 7
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
+		owns_state = 779  
+        has_full_control_of_state = 779
 		}
         completion_reward = {
-		war_support_factor = -0.1
+        779 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = industrial_complex
+                level = 2
+                instant_build = yes
+            }
+        }
         }
     }
     focus = {
         id = industryal_focuses_6
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_focus_generic_supply_line 
         prerequisite = { focus = industryal_focuses_4 }
-        x = 25
+        x = 26
         y = 3
-        cost = 3
+        cost = 8
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
-		}
+        owns_state = 779  
+        has_full_control_of_state = 779  
+        owns_state = 274  
+        has_full_control_of_state = 274 
+        owns_state = 777  
+        has_full_control_of_state = 777
+        owns_state = 776  
+        has_full_control_of_state = 776
+        owns_state = 558  
+        has_full_control_of_state = 558
+        }
         completion_reward = {
-		war_support_factor = -0.1
+        779 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1          
+                instant_build = yes
+            }
+        }
+        
+        274 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
+        
+        777 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
+        
+        776 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
+        
+        558 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1
+                instant_build = yes
+            }
+        }
         }
     }
     focus = {
         id = industryal_focuses_7
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_focus_AFG_scavenging 
         prerequisite = { focus = industryal_focuses_5 }
-        x = 23
+        x = 22
         y = 3
-        cost = 3
+        cost = 8
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
+		owns_state = 274 
+        has_full_control_of_state = 274 
 		}
         completion_reward = {
-		war_support_factor = -0.1
+		274 = {
+            add_extra_state_shared_building_slots = 2
+            add_building_construction = {
+                type = arms_factory
+                level = 2
+                instant_build = yes
+            }
+        }
         }
     }
     focus = {
         id = industryal_focuses_8
-        icon = GFX_SOV_develop_the_urals_ccp_2d_sov_compatibility 
+        icon = GFX_goal_continuous_research 
         prerequisite = { focus = industryal_focuses_7}
         prerequisite = { focus = industryal_focuses_6}
+        prerequisite = { focus = industryal_focuses_ideologi_4}
         x = 24
         y = 4
-        cost = 3
+        cost = 10
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
+		owns_state = 779 
+        has_full_control_of_state = 779 
+        owns_state = 274 
+        has_full_control_of_state = 274 
 		}
         completion_reward = {
-		war_support_factor = -0.1
+		274 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = arms_factory
+                level = 1
+                instant_build = yes
+            }
         }
+        779 = {
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+        779 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1          
+                instant_build = yes
+            }
+        }
+        274 = {
+            add_building_construction = {
+                type = infrastructure
+                level = 1          
+                instant_build = yes
+            }
+        }
+        add_research_slot = 1
+        set_country_flag = full_ekononic_grow
+    }
     }
     focus = {
         id = expantion_focuses_1
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
         available = {
          has_country_flag = full_political_stabilisanion
+         has_country_flag = full_ekononic_grow
         }
         x = 32
         y = 0
