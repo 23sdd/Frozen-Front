@@ -1,0 +1,15 @@
+on_war = {
+    effect = {
+        if = {
+            limit = {
+                ROOT = { has_country_flag = trigger_enemy_alliance }
+                OR = {
+                    FROM = { tag = MLI }
+                    FROM = { tag = NGR }
+                    FROM = { tag = CHA }
+                }
+            }
+            country_event = { id = fas_african_war_1 }
+        }
+    }
+}

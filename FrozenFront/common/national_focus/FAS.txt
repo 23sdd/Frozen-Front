@@ -781,15 +781,22 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
-		war_support_factor = -0.1
+        558 = {
+		add_core_of = ROOT
+            }
+        776 = {
+		add_core_of = ROOT
+            }
+        777 = {
+		add_core_of = ROOT
+            }
         }
     }
     focus = {
-        id = expantion_focuses_west_1
+        id = expantion_focuses_2
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
         prerequisite = { focus = expantion_focuses_1}
-        mutually_exclusive = { focus = expantion_focuses_east_1 }
-        x = 32
+        x = 31
         y = 1
         cost = 5
         ai_will_do = {
@@ -801,29 +808,133 @@ focus_tree = {
         completion_reward = {
 		create_wargoal = {
             type = annex_everything
-            target = FRA
+            target = LIB
+        }
+        create_wargoal = {
+            type = annex_everything
+            target = GNA
+        }
+        create_wargoal = {
+            type = annex_everything
+            target = SIE
+        }
+        create_wargoal = {
+            type = annex_everything
+            target = NGA
+        }
+        create_wargoal = {
+            type = annex_everything
+            target = CMR
+        }
+        create_wargoal = {
+            type = annex_everything
+            target = SOK
         }
         }
     }
     focus = {
-        id = expantion_focuses_east_1
+        id = expantion_focuses_3
         icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
-        prerequisite = { focus = expantion_focuses_1}
-        mutually_exclusive = { focus = expantion_focuses_west_1 }
-        x = 30
-        y = 1
+        prerequisite = { focus = expantion_focuses_2}
+        x = 31
+        y = 2
         cost = 5
         ai_will_do = {
 			factor = 1
 		}
 		available = {
-			always = yes
-		}
-        completion_reward = {
-		create_wargoal = {
-            type = annex_everything
-            target = FRA
+        owns_state = 780  
+        owns_state = 298
+        owns_state = 700
+        owns_state = 900  
+        owns_state = 901
+        owns_state = 773
+        owns_state = 902
         }
+        completion_reward = {
+        780 = {
+		add_core_of = ROOT
+            }
+        298 = {
+		add_core_of = ROOT
+            }
+        700 = {
+		add_core_of = ROOT
+            }
+        900 = {
+		add_core_of = ROOT
+            }
+        901 = {
+		add_core_of = ROOT
+            }
+        773 = {
+		add_core_of = ROOT
+            }
+        902 = {
+		add_core_of = ROOT
+            }
+        }
+    }
+    focus = {
+        id = expantion_focuses_4
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
+        prerequisite = { focus = expantion_focuses_3}
+        x = 31
+        y = 3
+        cost = 5
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+        has_war = no
+        }
+        completion_reward = {
+        declare_war_on = {
+            target = MLI        
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = NGR        
+            type = annex_everything
+        }
+        declare_war_on = {
+            target = CHA        
+            type = annex_everything
+        }
+        }
+    }
+    focus = {
+        id = expantion_focuses_5
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
+        prerequisite = { focus = expantion_focuses_4}
+        x = 31
+        y = 4
+        cost = 5
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+        has_war = no
+        }
+        completion_reward = {
+
+        }
+    }
+    focus = {
+        id = expantion_focuses_6
+        icon = GFX_SOV_experts_in_camouflage_ccp_2d_sov_compatibility 
+        prerequisite = { focus = expantion_focuses_5}
+        x = 31
+        y = 5
+        cost = 5
+        ai_will_do = {
+			factor = 1
+		}
+		available = {
+        has_war = no
+        }
+        completion_reward = {
+
         }
     }
     focus = {
@@ -847,7 +958,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_2
-        icon = GFX_focus_prc_infiltration 
+        icon = GFX_focus_generic_tank_assembly 
         prerequisite = { focus = army_focuses_1}
         available = {
         always = yes
@@ -867,7 +978,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_mobilisation
-        icon = GFX_focus_usa_honor_the_confederacy 
+        icon = GFX_focus_generic_women_in_military 
         prerequisite = { focus = army_focuses_2}
         available = {
         always = yes
@@ -887,7 +998,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_mobilisation_radical
-        icon = GFX_focus_usa_honor_the_confederacy 
+        icon = GFX_focus_generic_strike_at_democracy1 
         prerequisite = { focus = army_focuses_mobilisation}
         available = {
         always = yes
@@ -907,7 +1018,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_mobilisation_proletarian
-        icon = GFX_focus_usa_honor_the_confederacy 
+        icon = GFX_focus_generic_social_democracy 
         prerequisite = { focus = army_focuses_mobilisation}
         available = {
         always = yes
@@ -927,7 +1038,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_mobilisation_conserwation
-        icon = GFX_focus_usa_honor_the_confederacy 
+        icon = GFX_focus_generic_subjugation 
         prerequisite = { focus = army_focuses_mobilisation}
         available = {
         always = yes
@@ -947,7 +1058,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_infantry_1
-        icon = GFX_goal_generic_axis_build_infantry 
+        icon = GFX_focus_generic_military_academy 
         prerequisite = { focus = army_focuses_2}
         available = {
         always = yes
@@ -967,7 +1078,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_infantry_2
-        icon = GFX_goal_generic_axis_build_infantry 
+        icon = GFX_focus_generic_limited_social_mobilization 
         prerequisite = { focus = army_focuses_infantry_1}
         available = {
         always = yes
@@ -987,7 +1098,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_infantry_3
-        icon = GFX_goal_generic_axis_build_infantry 
+        icon = GFX_focus_generic_surrender 
         prerequisite = { focus = army_focuses_infantry_2}
         available = {
         always = yes
@@ -1007,7 +1118,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_infantry_4
-        icon = GFX_goal_generic_axis_build_infantry 
+        icon = GFX_focus_generic_little_entente 
         prerequisite = { focus = army_focuses_infantry_3}
         mutually_exclusive = { focus = army_focuses_infantry_tank_1 }
         available = {
@@ -1028,7 +1139,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_infantry_tank_1
-        icon = GFX_goal_continuous_armor_production 
+        icon = GFX_focus_generic_mass_production 
         prerequisite = { focus = army_focuses_infantry_3}
         mutually_exclusive = { focus = army_focuses_infantry_4 }
         available = {
@@ -1049,7 +1160,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_aviation_1
-        icon = GFX_goal_continuous_air_production 
+        icon = GFX_goal_generic_build_airforce 
         prerequisite = { focus = army_focuses_2}
         available = {
         always = yes
@@ -1089,7 +1200,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_aviation_3
-        icon = GFX_goal_continuous_air_production 
+        icon = GFX_goal_poland_goal 
         prerequisite = { focus = army_focuses_aviation_2}
         available = {
         always = yes
@@ -1109,7 +1220,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_aviation_4
-        icon = GFX_goal_continuous_air_production 
+        icon = GFX_goal_generic_air_fighter 
         prerequisite = { focus = army_focuses_aviation_3}
         mutually_exclusive = { focus = army_focuses_aviation_5 }
         available = {
@@ -1130,7 +1241,7 @@ focus_tree = {
     }
     focus = {
         id = army_focuses_aviation_5
-        icon = GFX_goal_continuous_air_production 
+        icon = GFX_goal_generic_occupy_start_war 
         prerequisite = { focus = army_focuses_aviation_3}
         mutually_exclusive = { focus = army_focuses_aviation_4 }
         available = {
