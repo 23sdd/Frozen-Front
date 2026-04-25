@@ -1,0 +1,15 @@
+characters = {
+	BEL_Jacquemotte = {
+		name = "Joseph Jacquemotte" 
+		portraits = {
+			civilian = {
+				large = GFX_Jacquemotte
+			}
+		}
+		country_leader = {
+			ideology = leninism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

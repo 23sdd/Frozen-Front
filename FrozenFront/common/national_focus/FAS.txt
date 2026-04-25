@@ -1,7 +1,7 @@
 focus_tree = {
     id = FAS_focus
 
-    country = {
+  country = {
         factor = 0
         modifier = {
             add = 10
@@ -24,7 +24,7 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
-		war_support_factor = -0.1
+		country_event = { id = fas.1 }
         }
     }
     focus = {

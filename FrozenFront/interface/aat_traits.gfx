@@ -81,4 +81,8 @@ spriteTypes = {
 		name = "GFX_Kornilov"
 		texturefile = "gfx/leaders/RKZ/Portraite_RKZ_Kornilov.dds"
 	}
+	spriteType = {
+		name = "GFX_Jacquemotte"
+		texturefile = "gfx/leaders/BEL/Portraite_BEL_Jacquemotte.dds"
+	}
 }

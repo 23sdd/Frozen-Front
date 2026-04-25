@@ -2,12 +2,13 @@ focus_tree = {
     id = AUS_focus
 
     country = {
-        factor = 0
-        modifier = {
-            add = 10
-            tag = AUS
-        }
-    }
+		factor = 0
+		
+		modifier = {
+			add = 60
+			tag = AUS
+		}
+	}
 
     default = no
 

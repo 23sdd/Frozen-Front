@@ -28,6 +28,26 @@ add_equipment_to_stockpile = {
 	amount = 7
 }
 
+set_party_name = {
+    ideology = democratic
+    long_name = FAS_democratic_party_russian_long
+    name = FAS_democratic_party_russian
+}
+set_party_name = {
+    ideology = communism
+    long_name = FAS_communism_party_russian_long
+    name = FAS_communism_party_russian
+}
+set_party_name = {
+    ideology = fascism
+    long_name = FAS_fascism_party_russian_long
+    name = FAS_fascism_party_russian
+}
+set_party_name = {
+    ideology = neutrality
+    long_name = FAS_neutrality_party_russian_long
+    name = FAS_neutrality_party_russian
+}
 
 set_convoys = 30
 

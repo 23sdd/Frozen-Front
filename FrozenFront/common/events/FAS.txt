@@ -1,0 +1,17 @@
+namespace = fas_events
+
+country_event = {
+    id = fas.1
+    title = fas.1.t
+    desc = fas.1.d
+    picture = GFX_report_event_generic
+
+    is_triggered_only = yes
+
+    option = {
+        name = fas.1.a
+
+        add_stability = -0.05
+        add_political_power = -25
+    }
+}
