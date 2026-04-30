@@ -25,6 +25,9 @@ focus_tree = {
 		}
         completion_reward = {
 		country_event = { id = fas.1 }
+        add_political_power = 50
+        add_stability = -0.05
+        add_war_support = -0.05
         }
     }
     focus = {
@@ -41,15 +44,7 @@ focus_tree = {
 			always = yes
 		}
 		 completion_reward = {
-            add_country_leader_role = {
-                character = "FAS_paul"
-                country_leader = {
-			ideology = conservatism
-			expire = "1950.1.1.1"
-			id = -1
-		}
-                promote_leader = yes 
-            }
+        add_political_power = 50
         }
     }
     focus = {

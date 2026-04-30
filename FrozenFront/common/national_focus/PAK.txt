@@ -1,11 +1,11 @@
 focus_tree = {
-    id = IRQ_focus
+    id = PAK_focus
 
     country = {
         factor = 0
         modifier = {
-            add = 60
-            tag = IRQ
+            add = 10
+            tag = PAK
         }
     }
 
