@@ -1,0 +1,15 @@
+characters = {
+	TEX_James_Allerd = {
+		name = "James V. Allred"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_TEX_James_Allerd
+			}
+		}
+		country_leader = {
+			ideology = agrarian
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

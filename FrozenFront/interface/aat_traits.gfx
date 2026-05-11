@@ -85,4 +85,24 @@ spriteTypes = {
 		name = "GFX_Jacquemotte"
 		texturefile = "gfx/leaders/BEL/Portraite_BEL_Jacquemotte.dds"
 	}
+	spriteType = {
+		name = "GFX_portrait_NAS_William"
+		texturefile = "gfx/leaders/NAS/Portraite_NAS_William.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_TEX_James_Allerd"
+		texturefile = "gfx/leaders/TEX/Portraite_TEX_James_Allerd.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KAN_William_Foster"
+		texturefile = "gfx/leaders/KAN/Portraite_KAN_William_Foster.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_KSA_Russell_Richard"
+		texturefile = "gfx/leaders/KSA/Portraite_KSA_Russell_Richard.dds"
+	}
+	spriteType = {
+		name = "GFX_portrait_AAU_DU_Bois"
+		texturefile = "gfx/leaders/AAU/Portraite_AAU_DU_Bois.dds"
+	}
 }

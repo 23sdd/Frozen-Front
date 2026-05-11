@@ -20,6 +20,7 @@ set_technology = {
 	gw_artillery = 1
 }
 
+recruit_character = TEX_James_Allerd
 set_politics = {
     ruling_party = neutrality
     last_election = "1930.1.6"
@@ -30,13 +31,4 @@ set_politics = {
 set_popularities = {
     neutrality = 83
     fascism = 17
-}
-
-create_country_leader = {
-	name = "TEX_LEADER"
-	desc = "TEX_LEADER_DESC"
-	picture = "gfx/leaders/TEX/TEX_LEADER.dds"
-	expire = "1960.1.1"
-	ideology = agrarian
-
 }

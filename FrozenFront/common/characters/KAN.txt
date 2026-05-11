@@ -1,0 +1,15 @@
+characters = {
+	KAN_William_Foster = {
+		name = "William Z. Foster"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_KAN_William_Foster
+			}
+		}
+		country_leader = {
+			ideology = marxism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

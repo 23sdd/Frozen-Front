@@ -1,0 +1,15 @@
+characters = {
+	AAU_DU_Bois = {
+		name = "W.E.B. Du Bois"
+		portraits = {
+			civilian = {
+				large = GFX_portrait_AAU_DU_Bois
+			}
+		}
+		country_leader = {
+			ideology = blacknism
+			expire = "1950.1.1.1"
+			id = -1
+		}
+	}
+}

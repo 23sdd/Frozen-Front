@@ -27,10 +27,13 @@ add_equipment_to_stockpile = {
 	amount = 3000
 }
 
+
 add_equipment_to_stockpile = {
 	type = support_equipment_1
 	amount = 200
 }
+
+recruit_character = KAN_William_Foster
 
 set_politics = {
     ruling_party = communism

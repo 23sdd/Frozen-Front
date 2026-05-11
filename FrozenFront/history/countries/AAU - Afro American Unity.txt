@@ -12,6 +12,7 @@ set_technology = {
 	
 }
 
+recruit_character = AAU_DU_Bois
 set_politics = {
     ruling_party = fascism
     last_election = "1396.1.1"

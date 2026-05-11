@@ -28,6 +28,7 @@ add_equipment_to_stockpile = {
     amount = 200
 }
 
+recruit_character = NAS_William
 set_politics = {
     ruling_party = fascism
     last_election = "1936.1.1"
