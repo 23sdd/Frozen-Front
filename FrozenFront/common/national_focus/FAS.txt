@@ -411,7 +411,12 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
+            add_offsite_building = {
+            type = industrial_complex
+            level = 1
         }
+        add_ideas = FAS_idea_5
+    }
     }
     focus = {
         id = industryal_focuses_ideologi_2
@@ -423,7 +428,7 @@ focus_tree = {
         }
         x = 23
         y = 2
-        cost = 10
+        cost = 5
         ai_will_do = {
 			factor = 1
 		}
@@ -431,6 +436,10 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
+            add_offsite_building = {
+            type = industrial_complex
+            level = 2
+        }
         }
     }
     focus = {
@@ -443,7 +452,7 @@ focus_tree = {
         }
         x = 25
         y = 2
-        cost = 10
+        cost = 5
         ai_will_do = {
 			factor = 1
 		}
@@ -451,6 +460,7 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
+        add_ideas = FAS_idea_6
         }
     }
     focus = {
@@ -459,7 +469,7 @@ focus_tree = {
         prerequisite = { focus = industryal_focuses_ideologi_2 focus = industryal_focuses_ideologi_3 } 
         x = 24
         y = 3
-        cost = 10
+        cost = 7
         ai_will_do = {
 			factor = 1
 		}
@@ -467,6 +477,7 @@ focus_tree = {
 			always = yes
 		}
         completion_reward = {
+        add_ideas = FAS_idea_7
         }
     }
     
@@ -1336,4 +1347,4 @@ focus_tree = {
 		war_support_factor = -0.1
         }
     }
-}
+    }
